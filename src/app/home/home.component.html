@@ -1,0 +1,22 @@
+<mat-grid-list [cols]="columns$ | async" gutterSize="16">
+    <mat-grid-tile class="tile" *ngFor="let article of articles$ | async">
+      <a class="tile__content"
+         fxLayout="column"
+         fxLayoutAlign="center center"
+         [routerLink]="['/articles', article.id]">
+  
+        <!--span class="tile__price-tag"
+              ngClass.xs="tile__price-tag--xs">
+          {{ article.price | currency:'USD':'symbol':'.0' }}
+        </span-->
+  
+        <div class="tile__thumbnail"
+             [ngStyle]="{'background-image': 'url(' + urlFor(article) + ')'}"></div>
+  
+        <div class="tile__title"
+             ngClass.xs="tile__title--xs"
+             ngClass.lg="tile__title--lg">{{ article.title }}</div>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+  

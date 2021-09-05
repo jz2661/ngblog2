@@ -1,0 +1,36 @@
+<mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <!--nga-searchform (search)="sidenav.close()"></nga-search-form-->
+  </mat-sidenav>
+
+  <mat-toolbar class="toolbar">
+    <button mat-icon-button
+            class="toolbar__icon-button"
+            (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+
+    <div class="toolbar__logo-title-group"
+         fxLayout
+         fxLayoutAlign="center center">      
+      <a class="toolbar__title"
+         routerLink="/">Jingzhong Zhang</a>
+    </div>
+
+    <div fxFlex></div>
+
+    <button mat-icon-button
+            class="toolbar__icon-button"
+            (click)="goToLink('mailto:zjzzjz2010@gmail.com?Subject=Followup%20from%20website')">
+            <!--(click)="mailto:zjzzjz2010@gmail.com?Subject=Followup%20from%20website"-->
+            <mat-icon>email</mat-icon>
+    </button>
+    <button mat-icon-button
+            class="toolbar__icon-button"
+            (click)="goToLink('//linkedin.com/in/jingzhongzhang/')">
+      <mat-icon>linkedin</mat-icon>
+    </button>    
+  </mat-toolbar>
+
+  <router-outlet></router-outlet>
+</mat-sidenav-container>

@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "ngblogf9e05cd1",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "api4323d069",
+  "apiName": "api4323d069",
+  "functionArns": [
+    {
+      "lambdaFunction": "ngblogf9e05cd1"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-ngblog-dev-165909-authRole",
+    "unAuthRoleName": "amplify-ngblog-dev-165909-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "ngblogf9e05cd1",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

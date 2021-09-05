@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ngblog-dev-165909-authRole",
+      "UnauthRoleArn": "arn:aws:iam::374171339465:role/amplify-ngblog-dev-165909-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::374171339465:role/amplify-ngblog-dev-165909-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-ngblog-dev-165909-deployment",
+      "UnauthRoleName": "amplify-ngblog-dev-165909-unauthRole",
+      "StackName": "amplify-ngblog-dev-165909",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:374171339465:stack/amplify-ngblog-dev-165909/8ad63410-0e27-11ec-a6de-0a4b476d80f3",
+      "AmplifyAppId": "d196dhuhkjoyqo"
+    },
+    "categories": {
+      "auth": {
+        "ngblogf31aa5be": {}
+      },
+      "function": {
+        "ngblogf9e05cd1": {
+          "deploymentBucketName": "amplify-ngblog-dev-165909-deployment",
+          "s3Key": "amplify-builds/ngblogf9e05cd1-33375870424d5a497137-build.zip"
+        }
+      }
+    }
+  }
+}
