@@ -42,7 +42,7 @@ import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
   ],
   providers: [
     ...SHARED_SERVICES,
-    //{ provide: API_BASE_URL, useValue: environment.apiBaseUrl },
+    { provide: API_BASE_URL, useValue: environment.apiBaseUrl },
     //{ provide: WS_URL, useValue: environment.wsUrl }
     AmplifyService
   ]
