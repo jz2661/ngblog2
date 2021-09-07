@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "description" : "Quant Research Ideas elaborated.",
+    "imageUrl" : "assets/img/paperquant.png",
+    "price" : 300,
+    "title" : "Quant Research Ideas",
+    "contents": [
+    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... </p>",
+    "<p><img src=\"assets/img/paperquant.png\" alt=\"Unclickable\" /></p>",
+    "<p>So in the end it was back to Windows, which is probably where I’ll be forced to stay for any Unreal work for the foreseeable future.</p>"
+    ],
+    "categories": [
+      "household"
+    ]
+  }
+]

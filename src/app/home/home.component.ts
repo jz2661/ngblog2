@@ -19,8 +19,8 @@ export class HomeComponent {
     [ 'xs', 1 ],
     [ 'sm', 2 ],
     [ 'md', 3 ],
-    [ 'lg', 4 ],
-    [ 'xl', 5 ],
+    [ 'lg', 3 ],
+    [ 'xl', 3 ],
   ]);
 
   constructor(
@@ -39,6 +39,12 @@ export class HomeComponent {
   }
 
   urlFor(Article: Article): string {
+    //return `${this.baseUrl}/${Article.imageUrl}`;
+    return Article.imageUrl;
+  }
+
+  imgFor(Article: Article): string {
     return `${this.baseUrl}/${Article.imageUrl}`;
   }
+
 }

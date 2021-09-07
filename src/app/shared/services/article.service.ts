@@ -5,16 +5,17 @@ import { map } from 'rxjs/operators';
 import { API_BASE_URL } from '../../app.tokens';
 //import * as fs from 'fs';
 //import * as util from 'util';
-import * as articlesFile from "src/data/Articles.json";
+import * as articlesFile from "src/assets/Articles.json";
 
 type DB = Article[];
 
 export interface Article {
   id: number;
+  name: string;
   title: string;
   date: Date;
   imageUrl: string;
-  contents: string;
+  contents: string[];
   categories: string[];
 }
 
