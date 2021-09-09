@@ -7,6 +7,8 @@
 
 mat-sidenav-container {
   height: 100%;
+  //width: 1120px;
+  //text-align: center;
 }
 
 .toolbar {
@@ -22,7 +24,7 @@ mat-sidenav-container {
 
 .toolbar__logo {
   height: 32px;
-  margin-right: 16px;
+  //margin-right: 16px;
 }
 
 .toolbar__title {
@@ -37,5 +39,9 @@ mat-sidenav-container {
 }
 
 .toolbar__shopping-cart-button {
-  margin-right: 8px;
+  //margin-right: 8px;
+}
+
+::ng-deep .mat-drawer-content.mat-sidenav-content {
+  overflow: unset;
 }

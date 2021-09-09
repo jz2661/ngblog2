@@ -3,8 +3,39 @@
     "id": 1,
     "description" : "Quant Research Ideas elaborated.",
     "imageUrl" : "assets/img/paperquant.png",
-    "price" : 300,
-    "title" : "Quant Research Ideas",
+    "date" : "2021-01-01",
+    "title" : "Quant Research Ideas1",
+    "contents": [
+    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... </p>",
+    "<p><img src=\"assets/img/paperquant.png\" alt=\"Unclickable\" /></p>",
+    "<p>So in the end it was back to Windows, which is probably where I’ll be forced to stay for any Unreal work for the foreseeable future.</p>"
+    ],
+    "categories": [
+      "Financial"
+    ]
+  },
+  {
+    "id": 2,
+    "description" : "Quant Research Ideas elaborated.",
+    "imageUrl" : "assets/img/paperquant.png",
+    "date" : "2021-02-01",
+    "title" : "Quant Research Ideas2",
+    "contents": [
+    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... </p>",
+    "<p><img src=\"assets/img/paperquant.png\" alt=\"Unclickable\" /></p>",
+    "<p>So in the end it was back to Windows, which is probably where I’ll be forced to stay for any Unreal work for the foreseeable future.</p>"
+    ],
+    "categories": [
+      "Financial",
+      "Engineering"
+    ]
+  },
+  {
+    "id": 3,
+    "description" : "Quant Research Ideas elaborated.",
+    "imageUrl" : "assets/img/paperquant.png",
+    "date" : "2021-03-01",
+    "title" : "Quant Research Ideas3",
     "contents": [
     "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... </p>",
     "<p><img src=\"assets/img/paperquant.png\" alt=\"Unclickable\" /></p>",

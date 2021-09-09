@@ -1,9 +1,11 @@
 import { ChangeDetectionStrategy, Component, Inject, Input } from '@angular/core';
 import { MediaObserver } from '@angular/flex-layout';
 import { Observable } from 'rxjs';
-import { map, startWith } from 'rxjs/operators';
+import { startWith } from 'rxjs/operators';
 import { API_BASE_URL } from '../app.tokens';
 import { Article, ArticleService } from '../shared/services/article.service';
+import { filter, map, switchMap, take } from 'rxjs/operators';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'ngb-home',
@@ -22,14 +24,23 @@ export class HomeComponent {
     [ 'lg', 3 ],
     [ 'xl', 3 ],
   ]);
+  public category="";
+
 
   constructor(
+    private route: ActivatedRoute,
     @Inject(API_BASE_URL) private readonly baseUrl: string,
     private readonly media: MediaObserver,
     private readonly articleService: ArticleService,) {
     // In the older versions of flex-layout we used ObservableMedia, which is deprecated. 
     // Use MediaObserver instead
-    this.articles$ = this.articleService.getAll()
+    
+    this.route.paramMap.subscribe( paramMap => {
+      this.category = paramMap.get('category')? paramMap.get('category')!: "";
+  });
+    console.log(this.category);
+
+    this.articles$ = this.articleService.getByCategory(this.category);
 
     this.columns$ = this.media.media$
       .pipe(

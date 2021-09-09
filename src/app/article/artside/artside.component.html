@@ -1,1 +1,63 @@
-<p>artside works!</p>
+
+<div fxLayout="column" fxLayoutGap="1px"  fxLayoutAlign="start">
+
+
+  <mat-card class="example-card">
+    <mat-card-title-group>
+        <mat-card-title>Jingzhong Zhang</mat-card-title>
+        <mat-card-subtitle>Quantitative Researcher</mat-card-subtitle>
+        <img mat-card-xl-image src="assets/img/avatar.jpg" alt="Unclickable">
+      </mat-card-title-group>
+    <!--mat-card-content>
+      <p>
+        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+        bred for hunting.
+      </p>
+    </mat-card-content-->
+    <mat-card-actions>
+      <button mat-icon-button
+      class="toolbar__icon-button"
+      (click)="goToLink('mailto:zjzzjz2010@gmail.com?Subject=Followup%20from%20wzUniverse')">
+      <mat-icon>email</mat-icon>
+      </button>
+      <button mat-icon-button
+      class="toolbar__icon-button"
+      (click)="goToLink('//linkedin.com/in/jingzhongzhang/')">
+      <mat-icon>linkedin</mat-icon>
+      </button>
+      <button mat-icon-button
+      class="toolbar__icon-button"
+      (click)="goToLink('//wzuniverse.com/')">
+      <mat-icon>home</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-card class="example-card">
+    <mat-card-title>Recent Posts</mat-card-title>
+
+  <mat-nav-list>
+    <a mat-list-item *ngFor="let article of recentarticles" [routerLink]="['/articles', article.id]">
+      <img matListAvatar src="{{article.imageUrl}}" alt="Unclickable">
+      <h3 matLine [routerLink]="['/articles', article.id]"> {{article.title}} </h3>
+      <p matLine>
+        <!--span> {{article.title}} </span-->
+        <span class="demo-2">  {{article.date}}  </span>
+      </p>
+
+    </a>
+  </mat-nav-list>
+    </mat-card>
+
+    <mat-card class="example-card">
+      <mat-chip-list aria-label="Fish selection">
+        <mat-chip>One fish</mat-chip>
+        <mat-chip>Two fish</mat-chip>
+        <mat-chip color="primary" selected>Primary fish</mat-chip>
+        <mat-chip color="accent" selected>Accent fish</mat-chip>
+      </mat-chip-list>
+      </mat-card>
+
+</div>
+  

@@ -130,6 +130,9 @@ export class LocalArticleService implements ArticleService {
   }
 
   getByCategory(category: string): Observable<Article[]> {
+    if (category == ""){
+        return this.getAll();      
+    }
     return this.getAll().pipe(
       map(Articles => Articles.filter(p => p.categories.includes(category))));
   }

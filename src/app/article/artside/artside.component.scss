@@ -1,0 +1,46 @@
+::ng-deep .mat-grid-tile-content {
+    border-left: 1px solid #eaeaea;
+}
+
+@import '../../../styles/theme';
+
+:host {
+  display: block;
+}
+
+.tile {
+  background-color: mat-color($ngb-background, card);
+
+  &:hover {
+    @include mat-elevation(4);
+    transition: .3s;
+  }
+}
+
+.tile__content {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.tile__thumbnail {
+  background: no-repeat 75% 75%;
+  background-size: contain;
+  height: 75%;
+  width: 75%;
+}
+
+.info__title {
+  color: mat-color($ngb-foreground, text);
+  font-family: 'Abril Fatface', cursive;
+  font-size: mat-font-size($ngb-typography, title);
+  font-weight: mat-font-weight($ngb-typography, title);
+  line-height: mat-line-height($ngb-typography, title);
+  margin: 0 0 24px;
+}
+
+mat-card img{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width: 20%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 80%;
+  }

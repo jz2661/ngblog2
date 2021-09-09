@@ -6,6 +6,10 @@ export const routes: Route[] = [
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
   {
+    path: 'category/:category',
+    loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
+  },  
+  {
     path: 'articles/:articleId',
     loadChildren: () => import('./article/article.module').then(m => m.ArticleModule)
   }

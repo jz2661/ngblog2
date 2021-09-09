@@ -1,16 +1,27 @@
-<div class="wrapper"
-     fxLayout="column"
-     fxLayout.gt-md="row">
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{article.title}}</mat-card-title>
+      <mat-card-subtitle>{{article.date}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-footer>
+      <mat-progress-bar mode="determinate" [value]="progressbarValue"></mat-progress-bar>
+    </mat-card-footer>    
+  </mat-card>  
+
+<div 
+  fxLayout="row" fxLayoutGap="0px" fxLayoutAlign="center start">
 
   <ngb-artcontents
-      fxFlex="auto"
-      fxFlex.gt-md="75%"
+      fxFlex="66"
       [article]="article">
   </ngb-artcontents>
 
   <ngb-artside
-      fxFlex="auto"
-      fxFlex.gt-md="25%">
+      fxFlex="34"
+      *ngIf="suggestedArticles$ | async as products"
+      [recentarticles]="products">
   </ngb-artside>
 
 </div>
