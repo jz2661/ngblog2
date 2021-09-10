@@ -2,7 +2,7 @@
     <mat-grid-tile class="tile" *ngFor="let article of articles$ | async">
       <a class="tile__content"
          fxLayout="column"
-         fxLayoutAlign="center center"
+         fxLayoutAlign="center stretch"
          [routerLink]="['/articles', article.id]">
   
         <!--span class="tile__price-tag"

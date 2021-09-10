@@ -17,9 +17,10 @@
   display: block;
   height: 100%;
   width: 100%;
-  padding: 16px;
+  //padding: 16px;
   position: relative;
   text-align: center;
+  justify-content: center;
   text-decoration: none;
 }
 
@@ -37,10 +38,13 @@
 }
 
 .tile__thumbnail {
-  background: no-repeat 50% 50%;
+  background: no-repeat 100% 100%;
   background-size: contain;
-  height: 50%;
-  width: 50%;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+
 }
 
 .tile__title {
