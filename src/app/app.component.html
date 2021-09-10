@@ -1,15 +1,11 @@
 <div fxFlex="0 1 1440px" margin="auto">
   
 
-  <mat-sidenav-container>
-  <mat-sidenav #sidenav>
-    <!--nga-searchform (search)="sidenav.close()"></nga-search-form-->
-  </mat-sidenav>
+
 
   <mat-toolbar class="toolbar">
     <button mat-icon-button
-            class="toolbar__icon-button"
-            (click)="sidenav.toggle()">
+            class="toolbar__icon-button">
       <mat-icon>menu</mat-icon>
     </button>
 
@@ -36,6 +32,5 @@
   </mat-toolbar>
 
   <router-outlet></router-outlet>
-</mat-sidenav-container>
 
 </div>

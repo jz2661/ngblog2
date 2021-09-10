@@ -11,11 +11,11 @@
         </span-->
   
         <div class="tile__thumbnail"
-             [ngStyle]="{'background-image': 'url(' + article.imageUrl + ')'}"></div>
+        [ngStyle]="{'background-image': 'url(' + urlFor(article) + ')'}"></div>
   
         <div class="tile__title"
              ngClass.xs="tile__title--xs"
-             ngClass.lg="tile__title--lg">{{ article.title }}</div>
+             ngClass.lg="tile__title--lg">{{article.title}}</div>
       </a>
     </mat-grid-tile>
   </mat-grid-list>

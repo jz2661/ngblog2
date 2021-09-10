@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, NgZone } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { filter, map, switchMap, take } from 'rxjs/operators';
@@ -12,7 +12,7 @@ import { interval, Subscription } from 'rxjs';
 })
 export class ArticleComponent {
   public article: Article;
-  readonly suggestedArticles$: Observable<Article[]>;
+  public suggestedArticles$: Observable<Article[]>;
   progressbarValue: number;
   curSec: number = 0;
 
@@ -21,7 +21,11 @@ export class ArticleComponent {
     const timer$ = interval(1000);
 
     const sub = timer$.subscribe((sec) => {
-      this.progressbarValue =  sec * 100 / seconds;
+      this.zone.run(() => {
+        this.progressbarValue = sec * 100 / seconds;
+        
+      });
+
       this.curSec = sec;
 
       if (this.curSec === seconds) {
@@ -32,7 +36,8 @@ export class ArticleComponent {
 
   constructor(
     private route: ActivatedRoute,
-    private articleService: ArticleService
+    private articleService: ArticleService,
+    private zone: NgZone
   ) {
 
     this.route.paramMap
@@ -53,23 +58,10 @@ export class ArticleComponent {
       })
     );
 
-    //this.startTimer(20);
+    this.startTimer(10);
   }
 
   ngOnInit() {
-    this.progressbarValue = 40;
-    const seconds = 10;
-    const timer$ = interval(1000);
 
-    const sub = timer$.subscribe((sec) => {
-      this.progressbarValue =  sec * 100 / seconds;
-      this.curSec = sec;
-      console.log(sec);
-      console.log(this.progressbarValue);
-
-      if (this.curSec === seconds) {
-        sub.unsubscribe();
-      }
-    });  
   }
 }
