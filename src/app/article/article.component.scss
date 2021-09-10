@@ -12,3 +12,23 @@
 nga-product-suggestion {
   margin: 16px;
 }
+
+::ng-deep .mat-card-header {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 5px ;
+}
+
+.mat-card{
+  padding:0 !important;
+}
+
+.mat-card-content{
+  padding:5px !important;
+}
+
+.white-text {
+  //font-size: 10px;
+  color: whitesmoke !important;
+  //text-align: center !important;
+}

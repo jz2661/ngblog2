@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, NgZone } from '@angular/core';
+import { ChangeDetectorRef, Component, NgZone } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
 import { filter, map, switchMap, take } from 'rxjs/operators';
@@ -13,7 +13,7 @@ import { interval, Subscription } from 'rxjs';
 export class ArticleComponent {
   public article: Article;
   public suggestedArticles$: Observable<Article[]>;
-  progressbarValue: number;
+  progressbarValue: number = 0;
   curSec: number = 0;
 
   startTimer(seconds: number) {
@@ -34,10 +34,23 @@ export class ArticleComponent {
     });
   }
 
+  increaseProgress(doneCallback: () => void) {
+    this.progressbarValue += 1;
+    console.log(`Current progress: ${this.progressbarValue}%`);
+  
+    if (this.progressbarValue < 100) {
+      window.setTimeout(() => {
+        this.increaseProgress(doneCallback);
+      }, 100);
+    } else {
+      doneCallback();
+    }
+  }
+
   constructor(
     private route: ActivatedRoute,
     private articleService: ArticleService,
-    private zone: NgZone
+    private zone: NgZone,
   ) {
 
     this.route.paramMap
@@ -51,17 +64,21 @@ export class ArticleComponent {
 
     this.suggestedArticles$ = this.articleService.getAll().pipe(
       map(events => {
-        let filtered = events.filter(event => event.id != this.article.id);
-        filtered = filtered.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+        //let filtered = events.filter(event => event.id != this.article.id);
+        let filtered = events.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
         filtered = filtered.length >= 5? filtered.slice(0,5) : filtered;
         return filtered;
       })
     );
 
-    this.startTimer(10);
+    //this.cdr.detectChanges();
+
+    //this.startTimer(10);
+    //this.increaseProgress(() => console.log('Done!'));
   }
 
   ngOnInit() {
+    this.increaseProgress(() => console.log('Done!'));
 
   }
 }

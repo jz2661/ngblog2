@@ -3,11 +3,8 @@
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>{{article.title}}</mat-card-title>
-      <mat-card-subtitle>{{article.date}}</mat-card-subtitle>
+      <mat-card-subtitle class="white-text">{{article.date}}</mat-card-subtitle>
     </mat-card-header>
-    <mat-card-footer>
-      <mat-progress-bar mode="determinate" [value]="progressbarValue"></mat-progress-bar>
-    </mat-card-footer>    
   </mat-card>  
 
 <div 
@@ -21,7 +18,8 @@
   <ngb-artside
       fxFlex="34"
       *ngIf="suggestedArticles$ | async as products"
-      [recentarticles]="products">
+      [recentarticles]="products"
+      [article]="article">
   </ngb-artside>
 
 </div>

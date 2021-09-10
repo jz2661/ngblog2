@@ -10,6 +10,7 @@ import { Article } from '../../shared/services';
 export class ArtsideComponent implements OnInit {
   public avatar: string;
   @Input() recentarticles: Article[];
+  @Input() article: Article;
 
   constructor() { }
 

@@ -52,10 +52,10 @@
 
     <mat-card class="example-card">
       <mat-chip-list aria-label="Fish selection">
-        <mat-chip>One fish</mat-chip>
-        <mat-chip>Two fish</mat-chip>
-        <mat-chip color="primary" selected>Primary fish</mat-chip>
-        <mat-chip color="accent" selected>Accent fish</mat-chip>
+        <mat-chip [routerLink]="['/category', cat]" color="primary" selected *ngFor="let cat of article.categories;">
+          {{cat}}
+        </mat-chip>
+
       </mat-chip-list>
       </mat-card>
 

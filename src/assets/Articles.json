@@ -1,33 +1,38 @@
 [
   {
     "id": 1,
-    "description" : "Quant Research Ideas elaborated.",
-    "imageUrl" : "assets/img/paperquant.png",
-    "date" : "2021-01-01",
-    "title" : "Quant Research Ideas1",
+    "description" : "Biography",
+    "imageUrl" : "assets/img/aboutme.jpg",
+    "date" : "2021-09-01",
+    "title" : "About Me",
     "contents": [
-    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... 111</p>",
-    "<p><img src=\"assets/img/paperquant.png\" alt=\"Unclickable\" /></p>",
-    "<p>So in the end it was back to Windows, which is probably where I’ll be forced to stay for any Unreal work for the foreseeable future.</p>"
+      "<p>I’ve been a professional quantitative researcher for five years now, with most of that time spent at Morgan Stanley. In my earlier years I was building the algorithmic trading strategies (pretty interesting stuff) and that was all Java. These days at work I am looking into macro strategies in Asia with a quantamental approach, using Python as a handy tool.</p>",
+
+      "<center><img src=\"assets/img/aboutme.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+
+      "<p>I’ve spent the last decade moving between Shanghai, New York, and Hong Kong. I enjoy reading about math, finance, detective novels and Chinese history.</p>",
+      
+      "<p>If you’d like to get in touch about anything please don’t hesitate to drop me an email.</p>",
+      
+      "<p>Cheers!</p>"
     ],
     "categories": [
-      "Financial"
+      "Personal"
     ]
   },
   {
     "id": 2,
     "description" : "Quant Research Ideas elaborated.",
     "imageUrl" : "assets/img/paperquant.png",
-    "date" : "2021-02-01",
-    "title" : "Quant Research Ideas2",
+    "date" : "2021-09-01",
+    "title" : "Quant Research Ideas",
     "contents": [
-    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... 222</p>",
+    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... 111</p>",
     "<p><img src=\"assets/img/paperquant.png\" alt=\"Unclickable\" /></p>",
     "<p>So in the end it was back to Windows, which is probably where I’ll be forced to stay for any Unreal work for the foreseeable future.</p>"
     ],
     "categories": [
-      "Financial",
-      "Engineering"
+      "Finance","Mathmatics"
     ]
   },
   {

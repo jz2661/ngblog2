@@ -4,10 +4,19 @@
 
 
   <mat-toolbar class="toolbar">
-    <button mat-icon-button
-            class="toolbar__icon-button">
-      <mat-icon>menu</mat-icon>
+
+
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+      <mat-icon>more_vert</mat-icon>
     </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="['/articles', 1]">
+        <span>About Me</span>
+      </button>
+      <button mat-menu-item [routerLink]="['/category', cat]" *ngFor="let cat of categories$ | async;">
+        <span>{{cat}}</span>
+      </button>
+    </mat-menu>
 
     <div class="toolbar__logo-title-group"
          fxLayout
@@ -20,7 +29,7 @@
 
     <button mat-icon-button
             class="toolbar__icon-button"
-            (click)="goToLink('mailto:zjzzjz2010@gmail.com?Subject=Followup%20from%20website')">
+            (click)="goToLink('mailto:zjzzjz2010@gmail.com?Subject=Followup%20from%20WZUniverse')">
             <!--(click)="mailto:zjzzjz2010@gmail.com?Subject=Followup%20from%20website"-->
             <mat-icon>email</mat-icon>
     </button>

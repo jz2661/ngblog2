@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatMenuModule} from '@angular/material/menu';
 
 import { environment } from '../environments/environment';
 import { SHARED_SERVICES } from './shared/services';
@@ -30,7 +31,8 @@ import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
     MatIconModule,
     MatSidenavModule,
     MatToolbarModule,
-    AmplifyAngularModule
+    AmplifyAngularModule,
+    MatMenuModule
 
     //SearchFormModule
   ],
