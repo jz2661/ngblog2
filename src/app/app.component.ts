@@ -18,4 +18,8 @@ export class AppComponent {
     ){
       this.categories$ = articleService.getAllCategories();
     }
+
+    ngOnChange(){
+      //this.router.navigateByUrl('/home');
+    }
 }

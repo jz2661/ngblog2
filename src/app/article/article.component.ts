@@ -78,7 +78,7 @@ export class ArticleComponent {
   }
 
   ngOnInit() {
-    this.increaseProgress(() => console.log('Done!'));
+    //this.increaseProgress(() => console.log('Done!'));
 
   }
 }

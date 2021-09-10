@@ -23,12 +23,12 @@
   {
     "id": 2,
     "description" : "Quant Research Ideas elaborated.",
-    "imageUrl" : "assets/img/paperquant.png",
+    "imageUrl" : "assets/img/paperquant.jpg",
     "date" : "2021-09-01",
     "title" : "Quant Research Ideas",
     "contents": [
     "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed... 111</p>",
-    "<p><img src=\"assets/img/paperquant.png\" alt=\"Unclickable\" /></p>",
+    "<p><img src=\"assets/img/paperquant.jpg\" alt=\"Unclickable\" /></p>",
     "<p>So in the end it was back to Windows, which is probably where I’ll be forced to stay for any Unreal work for the foreseeable future.</p>"
     ],
     "categories": [

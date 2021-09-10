@@ -11,11 +11,11 @@ import { ActivatedRoute } from '@angular/router';
   selector: 'ngb-home',
   styleUrls: [ './home.component.scss' ],
   templateUrl: './home.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class HomeComponent {
   //@Input() Articles: Article[] = [];
-  readonly articles$: Observable<Article[]>;
+  articles$: Observable<Article[]>;
   readonly columns$: Observable<number>;
   readonly breakpointsToColumnsNumber = new Map([
     [ 'xs', 1 ],
@@ -56,6 +56,15 @@ export class HomeComponent {
 
   imgFor(Article: Article): string {
     return `${this.baseUrl}/${Article.imageUrl}`;
+  }
+
+  ngOnChange(){
+    this.route.paramMap.subscribe( paramMap => {
+      this.category = paramMap.get('category')? paramMap.get('category')!: "";
+  });
+    console.log(this.category);
+
+    this.articles$ = this.articleService.getByCategory(this.category);
   }
 
 }

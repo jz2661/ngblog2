@@ -25,7 +25,7 @@ import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
     BrowserAnimationsModule,
     HttpClientModule,
     FlexLayoutModule,
-    RouterModule.forRoot(routes, {useHash: environment.production}),
+    RouterModule.forRoot(routes, {useHash: true}),
 
     MatButtonModule,
     MatIconModule,

@@ -15,7 +15,7 @@ import { Article } from '../../shared/services';
   selector: 'ngb-artcontents',
   styleUrls: [ './artcontents.component.scss' ],
   templateUrl: './artcontents.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class ArtcontentsComponent implements OnInit, OnChanges {
   private readonly articleChange$ = new Subject<Article>();
