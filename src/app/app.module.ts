@@ -22,7 +22,6 @@ import { AppComponent } from './app.component';
 import { routes } from './app.routing';
 import { API_BASE_URL } from './app.tokens';
 import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
-import { IconsModule } from 'angular-bootstrap-md'
 
 @NgModule({
   imports: [
@@ -39,7 +38,6 @@ import { IconsModule } from 'angular-bootstrap-md'
     AmplifyAngularModule,
     MatMenuModule,
     MatListModule,
-    IconsModule,
     MatGridListModule,
     //MDBBootstrapModule.forRoot()
 

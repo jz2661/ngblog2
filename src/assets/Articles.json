@@ -1,19 +1,34 @@
 [
   {
-    "id": 4,
-    "description" : "Hedge Fund Portfolio Strategy Based on Performance Persistence and Portfolio Theory.",
-    "imageUrl" : "assets/img/hedgefund.jpg",
-    "date" : "2021-09-02",
-    "title" : "Hedge Fund Portfolio Strategy",
+    "id": 5,
+    "description" : "Deep Reinforcement Learning",
+    "imageUrl" : "assets/img/angular.jpg",
+    "date" : "2021-09-03",
+    "title" : "Deep Reinforcement Learning",
     "contents": [
-    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2682632\">paper</a> discussed systematic methods to construct funds of funds (FOF) products investing in Chinese hedge funds, with low risk, high return and high Sharpe Ratio, or other ideal characteristics required by investors. Using performance data of more than 600 hedge funds, we applied standard portfolio theory to design portfolios with optimized risk and return features. Tradable FOF products with low risk, high return and high Sharpe Ratio were described in detail, with outstanding performances confirmed by systematic backtest and robust tests. Collectively, our results offer a sound investing product based on Chinese hedge fund performance, and are valuable both as an independent product and as a major component in a more comprehensive portfolio.</p>",
-    "<center><img src=\"assets/img/hedgefund.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>It was my master degree thesis and practiced portfolio theory along with statistical testing.</p>"
+    "<p>This book inspired me to build this website... The book is fine but not surprising that I learned most of Angular by coding rather than reading!</p>",
+    "<center><img src=\"assets/img/angular.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 6</p>"
     ],
     "categories": [
-      "Finance","Mathmatics","Publication"
+      "Dev"
     ]
   },  
+  {
+    "id": 4,
+    "description" : "Angular and Typescript.",
+    "imageUrl" : "assets/img/angular.jpg",
+    "date" : "2021-09-03",
+    "title" : "Angular and Typescript",
+    "contents": [
+    "<p>This book inspired me to build this website... The book is fine but not surprising that I learned most of Angular by coding rather than reading!</p>",
+    "<center><img src=\"assets/img/angular.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 6</p>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  },    
   {
     "id": 3,
     "description" : "Hedge Fund Portfolio Strategy Based on Performance Persistence and Portfolio Theory.",
