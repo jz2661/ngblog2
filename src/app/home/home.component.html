@@ -1,4 +1,4 @@
-<mat-grid-list [cols]="columns$ | async" gutterSize="16">
+<mat-grid-list [cols]="columns$ | async" gutterSize="16" style="margin: 1rem 0;">
   <mat-grid-tile class="tile" *ngFor="let article of articles$ | async">
     <a class="tile__content"
         fxLayout="column"

@@ -1,7 +1,4 @@
-<div fxFlex="0 1 1440px" margin="auto">
-  
-
-
+<div fxFlex="0 1 1440px">
 
   <mat-toolbar class="toolbar">
 
@@ -42,7 +39,7 @@
 
   <router-outlet></router-outlet>
 
-  <mat-grid-list class='footer' cols="4" rowHeight="110px">
+  <mat-grid-list class='footer' cols="3" rowHeight="7rem" style="margin: 2rem 0;">
     <mat-grid-tile
         class="tile"
         [colspan]="1"
@@ -52,6 +49,7 @@
           <a mat-list-item href="#/category/{{cat}}" *ngFor="let cat of categories$ | async;"> {{ cat }} </a>
        </mat-nav-list>        
     </mat-grid-tile>
+
     <mat-grid-tile
         class="tile"
         [colspan]="1"
@@ -61,19 +59,24 @@
           <a mat-list-item href="#/"> Home </a>
           <a mat-list-item href="#/articles/1"> About Me </a>                    
        </mat-nav-list>        
-    </mat-grid-tile>    
+    </mat-grid-tile>  
+
     <mat-grid-tile
-        [colspan]="2"
-        [rowspan]="2">
-    </mat-grid-tile>
-    <mat-grid-tile
+        class="tile"
         [colspan]="1"
-        [rowspan]="1">
-        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        [rowspan]="2">
+      </mat-grid-tile>  
+
+       <mat-grid-tile
+       [colspan]="3"
+       [rowspan]="1">
+        <div class="footer-copyright py-3" style="margin: 1rem 0;">© 2021 Copyright:
           <a> Jingzhong Zhang</a>
-        </div>        
-    </mat-grid-tile>          
+        </div>                  
+   </mat-grid-tile>  
+
   </mat-grid-list>
+
 <!-- Footer -->  
 
 </div>

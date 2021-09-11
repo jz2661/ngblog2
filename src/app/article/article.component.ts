@@ -4,6 +4,8 @@ import { Observable } from 'rxjs';
 import { filter, map, switchMap, take } from 'rxjs/operators';
 import { Article, ArticleService } from '../shared/services';
 import { interval, Subscription } from 'rxjs';
+import { MediaObserver } from '@angular/flex-layout';
+import { startWith, tap } from 'rxjs/operators';
 
 @Component({
   selector: 'ngb-article',
@@ -12,9 +14,17 @@ import { interval, Subscription } from 'rxjs';
 })
 export class ArticleComponent {
   public article: Article;
+  readonly columns$: Observable<number>;
   public suggestedArticles$: Observable<Article[]>;
   progressbarValue: number = 0;
   curSec: number = 0;
+  readonly breakpointsToColumnsNumber = new Map([
+    [ 'xs', 1 ],
+    [ 'sm', 2 ],
+    [ 'md', 3 ],
+    [ 'lg', 3 ],
+    [ 'xl', 3 ],
+  ]);
 
   startTimer(seconds: number) {
     const time = seconds;
@@ -50,6 +60,7 @@ export class ArticleComponent {
   constructor(
     private route: ActivatedRoute,
     private articleService: ArticleService,
+    private readonly media: MediaObserver,
     private zone: NgZone,
   ) {
 
@@ -71,7 +82,14 @@ export class ArticleComponent {
       })
     );
 
-    //this.cdr.detectChanges();
+    this.columns$ = this.media.media$
+      .pipe(
+        map(mc => <number>this.breakpointsToColumnsNumber.get(mc.mqAlias)),
+        startWith(3),
+        tap( res => console.log('columns:', res)),
+      );
+
+    console.log(this.columns$.subscribe());  
 
     //this.startTimer(10);
     //this.increaseProgress(() => console.log('Done!'));

@@ -33,9 +33,15 @@ body {
   font-family: mat-font-family($ngb-typography);
   line-height: mat-line-height($ngb-typography, body-1);
   font-size: mat-font-size($ngb-typography, body-1);
-  height: 100%;
   //margin: 0;
   margin-bottom: 400px;
+}
+
+html,body {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 ngb-root {

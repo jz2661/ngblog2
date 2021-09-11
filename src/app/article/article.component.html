@@ -7,19 +7,30 @@
     </mat-card-header>
   </mat-card>  
 
-<div 
-  fxLayout="row" fxLayoutGap="0px" fxLayoutAlign="center start">
+  <div *ngIf="(columns$ | async)! == 1">
+    <ngb-artcontents mat-grid-tile 
+        [article]="article">
+    </ngb-artcontents>
 
-  <ngb-artcontents
-      fxFlex="66"
-      [article]="article">
-  </ngb-artcontents>
+    <ngb-artside mat-grid-tile 
+        *ngIf="suggestedArticles$ | async as products"
+        [recentarticles]="products"
+        [article]="article">
+    </ngb-artside>
+  </div>
 
-  <ngb-artside
-      fxFlex="34"
-      *ngIf="suggestedArticles$ | async as products"
-      [recentarticles]="products"
-      [article]="article">
-  </ngb-artside>
+  <div *ngIf="(columns$ | async)! > 1">
+    <ngb-artcontents mat-grid-tile 
+        fxFlex="66"
+        [article]="article">
+    </ngb-artcontents>
 
-</div>
+    <ngb-artside mat-grid-tile 
+    fxFlex="34"
+        *ngIf="suggestedArticles$ | async as products"
+        [recentarticles]="products"
+        [article]="article">
+    </ngb-artside>
+    </div>
+
+

@@ -1,10 +1,5 @@
 @import '../styles/theme';
 
-:host {
-  display: block;
-  height: 100%;
-}
-
 mat-sidenav-container {
   height: 100%;
   //width: 1120px;
@@ -53,31 +48,19 @@ mat-sidenav-container {
 
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-/* Margin bottom by footer height */
-margin-bottom: 300px;
-}
-
 .footer {
-  position: absolute;
+  width: 70%;
+  //position: absolute;
   bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 300px;
-  line-height: 100px;
 }
 
-::ng-deep .mat-grid-tile-content {
+::ng-deep .footer .mat-grid-tile-content {
   background-color: mat-color($ngb-primary, card);
   align-items: start !important;    
+  justify-content: left;
 }
 
-.mat-list-base .mat-list-item, .mat-list-base .mat-list-option{
-  height: 36px;
+::ng-deep .footer .mat-list-item.mat-focus-indicator {
+  height: 2.2rem;
 }
 
