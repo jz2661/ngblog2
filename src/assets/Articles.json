@@ -1,6 +1,6 @@
 [
   {
-    "id": 3,
+    "id": 4,
     "description" : "Hedge Fund Portfolio Strategy Based on Performance Persistence and Portfolio Theory.",
     "imageUrl" : "assets/img/hedgefund.jpg",
     "date" : "2021-09-02",
@@ -14,6 +14,21 @@
       "Finance","Mathmatics","Publication"
     ]
   },  
+  {
+    "id": 3,
+    "description" : "Hedge Fund Portfolio Strategy Based on Performance Persistence and Portfolio Theory.",
+    "imageUrl" : "assets/img/hedgefund.jpg",
+    "date" : "2021-09-02",
+    "title" : "Hedge Fund Portfolio Strategy",
+    "contents": [
+    "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2682632\">paper</a> discussed systematic methods to construct funds of funds (FOF) products investing in Chinese hedge funds, with low risk, high return and high Sharpe Ratio, or other ideal characteristics required by investors. Using performance data of more than 600 hedge funds, we applied standard portfolio theory to design portfolios with optimized risk and return features. Tradable FOF products with low risk, high return and high Sharpe Ratio were described in detail, with outstanding performances confirmed by systematic backtest and robust tests. Collectively, our results offer a sound investing product based on Chinese hedge fund performance, and are valuable both as an independent product and as a major component in a more comprehensive portfolio.</p>",
+    "<center><img src=\"assets/img/hedgefund.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>It was my master degree thesis and practiced portfolio theory along with statistical testing.</p>"
+    ],
+    "categories": [
+      "Finance","Mathmatics","Publication"
+    ]
+  },    
   {
     "id": 2,
     "description" : "Quant Research Ideas elaborated.",
