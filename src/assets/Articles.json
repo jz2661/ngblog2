@@ -1,19 +1,76 @@
 [
   {
-    "id": 5,
-    "description" : "Deep Reinforcement Learning",
-    "imageUrl" : "assets/img/angular.jpg",
-    "date" : "2021-09-03",
-    "title" : "Deep Reinforcement Learning",
+    "id": 9,
+    "imageUrl" : "assets/img/digitalccy.jpg",
+    "date" : "2021-09-05",
+    "title" : "Digital Currency",
     "contents": [
-    "<p>This book inspired me to build this website... The book is fine but not surprising that I learned most of Angular by coding rather than reading!</p>",
-    "<center><img src=\"assets/img/angular.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Rating: 6</p>"
+    "<p>The central bank digital currency (CBDC) could collect massive private data for the central bank which could be useful for various purposes, including targeted rather than broad-based policy action.</p>",    
+    "<center><img src=\"assets/img/digitalccy.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 7</p>"
     ],
     "categories": [
       "Dev"
     ]
   },  
+  {
+    "id": 8,
+    "imageUrl" : "assets/img/effectivepython.jpg",
+    "date" : "2021-09-04",
+    "title" : "Effective Python",
+    "contents": [
+    "<p>The assignment operator is almost the only thing new for me but it is available only in v3.8. This book has a short but nice coverage on parallelism.</p>",    
+    "<center><img src=\"assets/img/effectivepython.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 6</p>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  },    
+  {
+    "id": 7,
+    "imageUrl" : "assets/img/evilteacher.jpg",
+    "date" : "2021-09-04",
+    "title" : "恶之教典",
+    "contents": [
+    "<p>Boring and unreal.</p>",    
+    "<center><img src=\"assets/img/evilteacher.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 1</p>"
+    ],
+    "categories": [
+      "Novel"
+    ]
+  },    
+  {
+    "id": 6,
+    "imageUrl" : "assets/img/nuli.jpg",
+    "date" : "2021-09-03",
+    "title" : "怒",
+    "contents": [
+    "<p>Great multiline plotting which peaks in the middle. Ending is less than perfect though.</p>",    
+    "<center><img src=\"assets/img/nuli.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 7</p>"
+    ],
+    "categories": [
+      "Novel"
+    ]
+  },    
+  {
+    "id": 5,
+    "description" : "Deep Reinforcement Learning",
+    "imageUrl" : "assets/img/deepreinforcement.jpg",
+    "date" : "2021-09-03",
+    "title" : "Deep Reinforcement Learning",
+    "contents": [
+    "<p>Reinforcement Learning would be ideal for trading execution strategy where we have a market impact model.</p>",
+    "<p>However in most backtesting nowadays investor trades are assumed not impacting market movement, which is why we could do backtesting. In this scenario conventional supervised learning seems superior as historical data would be very limited for reinformance learning purpose.</p>",
+    "<center><img src=\"assets/img/deepreinforcement.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 7</p>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  },    
   {
     "id": 4,
     "description" : "Angular and Typescript.",
