@@ -72,12 +72,12 @@ margin-bottom: 300px;
   line-height: 100px;
 }
 
-.tile {
+::ng-deep .mat-grid-tile-content {
   background-color: mat-color($ngb-primary, card);
-    text-align: start;
-    justify-content: normal;    
+  align-items: start !important;    
 }
 
 .mat-list-base .mat-list-item, .mat-list-base .mat-list-option{
   height: 36px;
 }
+

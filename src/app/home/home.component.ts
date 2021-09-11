@@ -31,16 +31,15 @@ export class HomeComponent {
     private route: ActivatedRoute,
     @Inject(API_BASE_URL) private readonly baseUrl: string,
     private readonly media: MediaObserver,
-    private readonly articleService: ArticleService,) {
+    private readonly articleService: ArticleService)
+  {
     // In the older versions of flex-layout we used ObservableMedia, which is deprecated. 
     // Use MediaObserver instead
     
     this.route.paramMap.subscribe( paramMap => {
       this.category = paramMap.get('category')? paramMap.get('category')!: "";
-  });
-    console.log(this.category);
-
-    this.articles$ = this.articleService.getByCategory(this.category);
+      this.articles$ = this.articleService.getByCategory(this.category);
+    });
 
     this.columns$ = this.media.media$
       .pipe(
@@ -57,14 +56,4 @@ export class HomeComponent {
   imgFor(Article: Article): string {
     return `${this.baseUrl}/${Article.imageUrl}`;
   }
-
-  ngOnChange(){
-    this.route.paramMap.subscribe( paramMap => {
-      this.category = paramMap.get('category')? paramMap.get('category')!: "";
-  });
-    console.log(this.category);
-
-    this.articles$ = this.articleService.getByCategory(this.category);
-  }
-
 }

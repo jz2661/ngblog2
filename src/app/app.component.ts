@@ -14,12 +14,13 @@ export class AppComponent {
     window.open(url, "_blank");
   };
 
-  constructor(    private articleService: ArticleService
-    ){
-      this.categories$ = articleService.getAllCategories();
-    }
+  constructor(
+    private articleService: ArticleService)
+  {
+    this.categories$ = articleService.getAllCategories();
+  }
 
-    ngOnChange(){
-      //this.router.navigateByUrl('/home');
-    }
+  ngOnChange(){
+    //this.router.navigateByUrl('/home');
+  }
 }
