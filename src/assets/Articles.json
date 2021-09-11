@@ -1,18 +1,88 @@
 [
   {
+    "id": 13,
+    "imageUrl" : "assets/img/featureengineering.jpg",
+    "date" : "2021-09-08",
+    "title" : "Feature Engineering",
+    "rating": "9",
+    "contents": [
+    "<p>Great practical guide for feature engineering in scikit-learn, such as Pipelines.</p>",
+
+    "<center><img src=\"assets/img/featureengineering.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 9</p>"
+    ],
+    "categories": [
+      "Mathematics", "Dev"
+    ]
+  }, 
+  {
+    "id": 12,
+    "imageUrl" : "assets/img/hengdao.jpg",
+    "date" : "2021-09-07",
+    "title" : "横道世之介",
+    "rating": "9",
+    "contents": [
+    "<p>Very moving teenager story that makes me like the world and life even more.</p>",
+    "<p>For age 30+ maybe..</p>",            
+
+    "<center><img src=\"assets/img/hengdao.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 9</p>"
+    ],
+    "categories": [
+      "Novel"
+    ]
+  },   
+  {
+    "id": 11,
+    "imageUrl" : "assets/img/zombie.jpg",
+    "date" : "2021-09-06",
+    "title" : "尸人庄杀人案",
+    "contents": [
+    "<p>A good detective with zombie story. Reasonably not scary.</p>",
+    "<p>Did not explain clearly the source of zombies though...</p>",            
+
+    "<center><img src=\"assets/img/zombie.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 6</p>"
+    ],
+    "categories": [
+      "Novel"
+    ]
+  },   
+  {
+    "id": 10,
+    "imageUrl" : "assets/img/vba2019.jpg",
+    "date" : "2021-09-06",
+    "title" : "VBA and Macros",
+    "contents": [
+    "<p>A nice intro on VBA. I have not used VBA for years and after I read this the use cases are still limited in work.</p>",
+    "<p>VBA is in a middle-of-nowhere given Excel to do one-off work and Pythhon to handle systematic, repetitive processing...</p>",            
+
+    "<center><img src=\"assets/img/vba2019.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 6</p>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  },   
+  {
     "id": 9,
     "imageUrl" : "assets/img/digitalccy.jpg",
     "date" : "2021-09-05",
     "title" : "Digital Currency",
     "contents": [
-    "<p>The central bank digital currency (CBDC) could collect massive private data for the central bank which could be useful for various purposes, including targeted rather than broad-based policy action.</p>",    
+    "<p>The central bank digital currency (CBDC) could collect massive private data for the central bank which could be useful for various purposes, including targeted rather than broad-based policy action.</p>",
+    "<p>However, central banks using targeted subsidy (\"helicopter money\") might blur the lines between monetary and fiscal policy.</p>",            
+    "<p>CBDC could become a safer alternative to bank deposits that lead to narrow banking or increased moral hazard in banks, given much larger lending needed from central bank to commercial banks.</p>",        
+    "<p>Nevertheless, the informational and social benefits (to squeeze out private coins and cash to better track economic activities) of CBDC are too large to ignore, and many Asia central banks, leading by PBOC, started initiatives to launch CBDC.</p>",
+    "<p>It could be a game changer in a low-rate environment where traditional monetary policy space has been limited.</p>",        
+
     "<center><img src=\"assets/img/digitalccy.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
     "<p>Rating: 7</p>"
     ],
     "categories": [
-      "Dev"
+      "Finance"
     ]
-  },  
+  },     
   {
     "id": 8,
     "imageUrl" : "assets/img/effectivepython.jpg",
@@ -63,7 +133,7 @@
     "title" : "Deep Reinforcement Learning",
     "contents": [
     "<p>Reinforcement Learning would be ideal for trading execution strategy where we have a market impact model.</p>",
-    "<p>However in most backtesting nowadays investor trades are assumed not impacting market movement, which is why we could do backtesting. In this scenario conventional supervised learning seems superior as historical data would be very limited for reinformance learning purpose.</p>",
+    "<p>However in most backtesting nowadays investor trades are assumed not impacting market movement, which is why we could do backtesting. In this scenario conventional supervised learning seems superior as historical data would be very limited for reinforcement learning purpose.</p>",
     "<center><img src=\"assets/img/deepreinforcement.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
     "<p>Rating: 7</p>"
     ],
@@ -98,7 +168,7 @@
     "<p>It was my master degree thesis and practiced portfolio theory along with statistical testing.</p>"
     ],
     "categories": [
-      "Finance","Mathmatics","Publication"
+      "Finance","Mathematics","Publication"
     ]
   },    
   {
@@ -113,7 +183,7 @@
     "<p>It practiced feature engineering and single name equity alpha mostly following Advances in Financial Machine Learning by Prado.</p>"
     ],
     "categories": [
-      "Finance","Mathmatics","Publication"
+      "Finance","Mathematics","Publication"
     ]
   },  
   {
@@ -134,7 +204,7 @@
       "<p>Cheers!</p>"
     ],
     "categories": [
-      "Personal"
+      "Life"
     ]
   }
 ]
