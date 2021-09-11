@@ -10,6 +10,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
+
+//import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { environment } from '../environments/environment';
 import { SHARED_SERVICES } from './shared/services';
@@ -18,6 +22,7 @@ import { AppComponent } from './app.component';
 import { routes } from './app.routing';
 import { API_BASE_URL } from './app.tokens';
 import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
+import { IconsModule } from 'angular-bootstrap-md'
 
 @NgModule({
   imports: [
@@ -32,7 +37,11 @@ import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
     MatSidenavModule,
     MatToolbarModule,
     AmplifyAngularModule,
-    MatMenuModule
+    MatMenuModule,
+    MatListModule,
+    IconsModule,
+    MatGridListModule,
+    //MDBBootstrapModule.forRoot()
 
     //SearchFormModule
   ],
