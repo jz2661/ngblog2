@@ -1,4 +1,4 @@
-<mat-grid-list [cols]="columns$ | async" gutterSize="16" style="margin: 1rem 1;">
+<mat-grid-list [cols]="columns$ | async" gutterSize="16" style="margin: 1rem 1; margin-left: 1rem">
   <mat-grid-tile class="tile" *ngFor="let article of articles$ | async">
     <a class="tile__content"
         fxLayout="column"
@@ -37,4 +37,8 @@
     </a>
   </mat-grid-tile>
 </mat-grid-list>
+
+<div class="example-button-row" *ngIf="shownitems < totalitems">
+  <a mat-raised-button color="primary" (click)="loadmore()"><h3 style="margin: auto">More Posts</h3></a>
+</div>
   

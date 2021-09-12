@@ -6,6 +6,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatTabsModule } from '@angular/material/tabs';
 import {MatCardModule} from '@angular/material/card';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatButtonModule} from '@angular/material/button';
 
 import { HomeComponent } from './home.component';
 //import { ProductGridComponent } from './product-grid/product-grid.component';
@@ -32,7 +33,8 @@ const routes: Route[] = [
     MatGridListModule,
     MatTabsModule,
     MatCardModule,
-    MatChipsModule
+    MatChipsModule,
+    MatButtonModule
   ],
   declarations: [
     HomeComponent,

@@ -25,6 +25,8 @@ export class HomeComponent {
     [ 'xl', 3 ],
   ]);
   public category="";
+  public shownitems=15;
+  public totalitems=0;
 
 
   constructor(
@@ -36,9 +38,13 @@ export class HomeComponent {
     // In the older versions of flex-layout we used ObservableMedia, which is deprecated. 
     // Use MediaObserver instead
     
+    this.articleService.getByCategory(this.category).subscribe(arr => this.totalitems = arr.length);
+
     this.route.paramMap.subscribe( paramMap => {
       this.category = paramMap.get('category')? paramMap.get('category')!: "";
-      this.articles$ = this.articleService.getByCategory(this.category);
+      this.articles$ = this.articleService.getByCategory(this.category).pipe(
+        map(arr => arr.slice(0,this.shownitems))
+      );
     });
 
     this.columns$ = this.media.media$
@@ -51,6 +57,16 @@ export class HomeComponent {
   urlFor(Article: Article): string {
     //return `${this.baseUrl}/${Article.imageUrl}`;
     return Article.imageUrl;
+  }
+
+  loadmore(): void {
+    this.shownitems += 15;
+    this.route.paramMap.subscribe( paramMap => {
+      this.articles$ = this.articleService.getByCategory(this.category).pipe(
+        map(arr => arr.slice(0,this.shownitems))
+      );
+    });
+    console.log(this.shownitems);  
   }
 
   firstCat(Article: Article): string {
