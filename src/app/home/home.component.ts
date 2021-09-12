@@ -53,6 +53,11 @@ export class HomeComponent {
     return Article.imageUrl;
   }
 
+  firstCat(Article: Article): string {
+    //return `${this.baseUrl}/${Article.imageUrl}`;
+    return Article.categories[0];
+  }
+
   imgFor(Article: Article): string {
     return `${this.baseUrl}/${Article.imageUrl}`;
   }

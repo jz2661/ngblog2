@@ -4,6 +4,8 @@ import { Route, RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatTabsModule } from '@angular/material/tabs';
+import {MatCardModule} from '@angular/material/card';
+import {MatChipsModule} from '@angular/material/chips';
 
 import { HomeComponent } from './home.component';
 //import { ProductGridComponent } from './product-grid/product-grid.component';
@@ -28,7 +30,9 @@ const routes: Route[] = [
     RouterModule.forChild(routes),
     FlexLayoutModule,
     MatGridListModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule,
+    MatChipsModule
   ],
   declarations: [
     HomeComponent,

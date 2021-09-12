@@ -1,4 +1,4 @@
-<mat-grid-list [cols]="columns$ | async" gutterSize="16" style="margin: 1rem 0;">
+<mat-grid-list [cols]="columns$ | async" gutterSize="16" style="margin: 1rem 1;">
   <mat-grid-tile class="tile" *ngFor="let article of articles$ | async">
     <a class="tile__content"
         fxLayout="column"
@@ -11,11 +11,29 @@
       </span-->
 
       <div class="tile__thumbnail"
-      [ngStyle]="{'background-image': 'url(' + urlFor(article) + ')'}"></div>
+      [ngStyle]="{'background-image': 'url(' + urlFor(article) + ')', 'margin-bottom': '1rem'}"></div>
+
+      <mat-chip-list #chipList aria-label="Fruit selection">
+        <mat-chip [routerLink]="['/category', firstCat(article)]" style="background-color: #ngb-primary" selected >
+          {{firstCat(article)}}
+        </mat-chip>
+      </mat-chip-list>
 
       <div class="tile__title"
             ngClass.xs="tile__title--xs"
             ngClass.lg="tile__title--lg">{{article.title}}</div>
+
+      <div style="color:gray">{{article.date}}</div>      
+            <!--mat-card class="example-card" [routerLink]="['/articles', article.id]">
+              <mat-card-header>
+                <mat-card-title>{{article.title}}</mat-card-title>
+                <mat-card-subtitle>{{article.date}}</mat-card-subtitle>
+              </mat-card-header>
+              <img mat-card-image src="{{article.imageUrl}}" alt="Photo">
+              <mat-card-content>
+                <h5>{{article.categories}}</h5>
+              </mat-card-content>
+            </mat-card-->
     </a>
   </mat-grid-tile>
 </mat-grid-list>

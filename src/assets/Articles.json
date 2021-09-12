@@ -1,5 +1,105 @@
 [
   {
+    "id": 19,
+    "imageUrl" : "assets/img/diezero.jpg",
+    "date" : "2021-09-11",
+    "title" : "Die with Zero",
+    "rating": "8",
+    "contents": [
+    "<p>To admit this book is not for people enjoying career success... </p>",
+    "<p>But if you are in a bottleneck at work like me, try a read and you will come out happier and less anxious. A better mood will help everything in your life then~ </p>",
+
+    "<center><img src=\"assets/img/diezero.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Others"
+    ]
+  },   
+  {
+    "id": 18,
+    "imageUrl" : "assets/img/medi.jpg",
+    "date" : "2021-09-11",
+    "title" : "医学通识讲义",
+    "rating": "8",
+    "contents": [
+    "<p>I read this for some common knowledge in medical science, stressing that self-repair of the body is the ultimate way.</p>",
+
+    "<center><img src=\"assets/img/medi.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Others"
+    ]
+  },   
+  {
+    "id": 17,
+    "imageUrl" : "assets/img/ecomoney.jpg",
+    "date" : "2021-09-11",
+    "title" : "Economics of Money",
+    "rating": "7",
+    "contents": [
+    "<p>A good introduction into macro economic practices and central banking in modern world. I read this in undergrad and have recalled knowledge from this many times since then.</p>",
+
+    "<center><img src=\"assets/img/ecomoney.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 7</p>"
+    ],
+    "categories": [
+      "Finance"
+    ]
+  },   
+  {
+    "id": 16,
+    "imageUrl" : "assets/img/elements.jpg",
+    "date" : "2021-09-10",
+    "title" : "Elements of Statistical Learning",
+    "rating": "8",
+    "contents": [
+    "<p>Needless to say this is an entry book for many statistical learning practitioners... Purely about the algos.</p>",
+    "<p>The thinner An Introduction to Statistical Learning is better if you are looking for a first time read in this field.</p>",
+
+    "<center><img src=\"assets/img/elements.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Mathematics"
+    ]
+  },   
+  {
+    "id": 15,
+    "imageUrl" : "assets/img/princetonmath.jpg",
+    "date" : "2021-09-10",
+    "title" : "Applied Mathematics",
+    "rating": "9",
+    "contents": [
+    "<p>This covers most concepts encountered in financial data science. Should read another book for modern linear algebra.</p>",
+    "<p>The book contains interesting use cases in physics, finance and numerical modelling.</p>",
+
+    "<center><img src=\"assets/img/princetonmath.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 9</p>"
+    ],
+    "categories": [
+      "Mathematics"
+    ]
+  },   
+  {
+    "id": 14,
+    "imageUrl" : "assets/img/advfinml.jpg",
+    "date" : "2021-09-09",
+    "title" : "Financial Machine Learning",
+    "rating": "9",
+    "contents": [
+    "<p>This book is about financial ML practices instead of algos. Much about data cleaning, feature selection and performance evaluation.</p>",
+    "<p>The features part a bit focusing on microstructure but still worth reading for lower-frequency players.</p>",
+
+    "<center><img src=\"assets/img/advfinml.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 9</p>"
+    ],
+    "categories": [
+      "Mathematics", "Dev"
+    ]
+  },   
+  {
     "id": 13,
     "imageUrl" : "assets/img/featureengineering.jpg",
     "date" : "2021-09-08",
@@ -7,6 +107,7 @@
     "rating": "9",
     "contents": [
     "<p>Great practical guide for feature engineering in scikit-learn, such as Pipelines.</p>",
+    "<p>It is direct on the implementation level, should read algos and some <a href=\"#/articles/14\">practition guide</a> before reading this.</p>",
 
     "<center><img src=\"assets/img/featureengineering.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
     "<p>Rating: 9</p>"
@@ -14,7 +115,7 @@
     "categories": [
       "Mathematics", "Dev"
     ]
-  }, 
+  },   
   {
     "id": 12,
     "imageUrl" : "assets/img/hengdao.jpg",
@@ -98,20 +199,6 @@
     ]
   },    
   {
-    "id": 7,
-    "imageUrl" : "assets/img/evilteacher.jpg",
-    "date" : "2021-09-04",
-    "title" : "恶之教典",
-    "contents": [
-    "<p>Boring and unreal.</p>",    
-    "<center><img src=\"assets/img/evilteacher.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Rating: 1</p>"
-    ],
-    "categories": [
-      "Novel"
-    ]
-  },    
-  {
     "id": 6,
     "imageUrl" : "assets/img/nuli.jpg",
     "date" : "2021-09-03",
@@ -180,7 +267,7 @@
     "contents": [
     "<p>This <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2787497\">paper</a> discussed three in-detail quantitative trading ideas for equity markets in China and Japan. First idea discusses the emerging 50 ETF option markets in China and the feasibility of a covered call strategy. Second idea evaluates the opportunities implied by the ETF purchase program of Bank of Japan. Third idea demonstrates the predicting effectiveness of Chinese short selling and margin buying data with feature selection. Limitations and concerns for each idea is discussed separately. With a valuation model established in the first section, we are able to value each trading idea at 1.5M, 0.46M and 0.33M USD respectively, based on derived estimates of strategy performances and investment characteristics.</p>",
     "<center><img src=\"assets/img/quantp.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>It practiced feature engineering and single name equity alpha mostly following Advances in Financial Machine Learning by Prado.</p>"
+    "<p>It practiced feature engineering and single name equity alpha mostly following <a href=\"#/articles/14\">Advances in Financial Machine Learning</a> and <a href=\"#/articles/13\">Feature Engineering</a>.</p>"
     ],
     "categories": [
       "Finance","Mathematics","Publication"
@@ -192,6 +279,7 @@
     "imageUrl" : "assets/img/aboutme.jpg",
     "date" : "2021-09-01",
     "title" : "About Me",
+    "cols": 2,
     "contents": [
       "<p>I’ve been a professional quantitative researcher for five years now, with most of that time spent at Morgan Stanley. In my earlier years I was building the algorithmic trading strategies (pretty interesting stuff) and that was all Java. These days at work I am looking into macro strategies in Asia with a quantamental approach, using Python as a handy tool.</p>",
 
