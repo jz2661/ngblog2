@@ -38,13 +38,13 @@ export class HomeComponent {
     // In the older versions of flex-layout we used ObservableMedia, which is deprecated. 
     // Use MediaObserver instead
     
-    this.articleService.getByCategory(this.category).subscribe(arr => this.totalitems = arr.length);
-
     this.route.paramMap.subscribe( paramMap => {
       this.category = paramMap.get('category')? paramMap.get('category')!: "";
       this.articles$ = this.articleService.getByCategory(this.category).pipe(
         map(arr => arr.slice(0,this.shownitems))
       );
+      this.articles$.subscribe(arr => this.totalitems = arr.length);
+
     });
 
     this.columns$ = this.media.media$
