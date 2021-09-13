@@ -1,5 +1,53 @@
 [
   {
+    "id": 22,
+    "imageUrl" : "assets/img/ms.jpg",
+    "date" : "2021-09-12",
+    "title" : "Morgan Stanley Research",
+    "rating": "8",
+    "contents": [
+    "<p>If you have access to Morgan Stanley Research welcome to take a look at my works there, with the best ones on Global EM Strategist.</p>",
+
+    "<center><img src=\"assets/img/ms.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Cheers!</p>"
+    ],
+    "categories": [
+      "Finance"
+    ]
+  }, 
+  {
+    "id": 21,
+    "imageUrl" : "assets/img/datasciml.jpg",
+    "date" : "2021-09-12",
+    "title" : "Data Science",
+    "rating": "8",
+    "contents": [
+    "<p>Surprisingly comprehensive and insight book on statistical learning theory. Good for refreshing memory but could be a bit challenging for first time readers.</p>",
+
+    "<center><img src=\"assets/img/datasciml.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Mathematics"
+    ]
+  },  
+  {
+    "id": 20,
+    "imageUrl" : "assets/img/statesci.jpg",
+    "date" : "2021-09-12",
+    "title" : "State of Science",
+    "rating": "7",
+    "contents": [
+    "<p>General science book with latest development in particular on gravitational wave, CRISPR gene editing and science funding.</p>",
+
+    "<center><img src=\"assets/img/statesci.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 7</p>"
+    ],
+    "categories": [
+      "Others"
+    ]
+  },   
+  {
     "id": 19,
     "imageUrl" : "assets/img/diezero.jpg",
     "date" : "2021-09-11",
