@@ -1,5 +1,22 @@
 [
   {
+    "id": 23,
+    "imageUrl" : "assets/img/solved.jpg",
+    "date" : "2021-09-25",
+    "title" : "Solved",
+    "rating": "5",
+    "contents": [
+    "<p>It is a fine casual reading. Key takeaways are the country comparison table near the end and that immigrants become less attractive to host countries as they age, while temp residents are always welcome as they contribute consumption without tapping public resources.</p>",
+    "<p>The book would be more interesting to address from policymaker perspective and examine why policymakers do not adopt the \"better\" policies. Many of objectives in the book (higher growth, less inequality, democracy) might be means rather than end goals in policymaker eyes, depending on the country.</p>",
+
+    "<center><img src=\"assets/img/solved.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 5</p>"
+    ],
+    "categories": [
+      "Others"
+    ]
+  }, 
+  {
     "id": 22,
     "imageUrl" : "assets/img/ms.jpg",
     "date" : "2021-09-12",
@@ -12,9 +29,9 @@
     "<p>Cheers!</p>"
     ],
     "categories": [
-      "Finance"
+      "Finance", "Publication"
     ]
-  }, 
+  },   
   {
     "id": 21,
     "imageUrl" : "assets/img/datasciml.jpg",
@@ -165,39 +182,6 @@
     ]
   },   
   {
-    "id": 12,
-    "imageUrl" : "assets/img/hengdao.jpg",
-    "date" : "2021-09-07",
-    "title" : "横道世之介",
-    "rating": "9",
-    "contents": [
-    "<p>Very moving teenager story that makes me like the world and life even more.</p>",
-    "<p>For age 30+ maybe..</p>",            
-
-    "<center><img src=\"assets/img/hengdao.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Rating: 9</p>"
-    ],
-    "categories": [
-      "Novel"
-    ]
-  },   
-  {
-    "id": 11,
-    "imageUrl" : "assets/img/zombie.jpg",
-    "date" : "2021-09-06",
-    "title" : "尸人庄杀人案",
-    "contents": [
-    "<p>A good detective with zombie story. Reasonably not scary.</p>",
-    "<p>Did not explain clearly the source of zombies though...</p>",            
-
-    "<center><img src=\"assets/img/zombie.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Rating: 6</p>"
-    ],
-    "categories": [
-      "Novel"
-    ]
-  },   
-  {
     "id": 10,
     "imageUrl" : "assets/img/vba2019.jpg",
     "date" : "2021-09-06",
@@ -244,20 +228,6 @@
     ],
     "categories": [
       "Dev"
-    ]
-  },    
-  {
-    "id": 6,
-    "imageUrl" : "assets/img/nuli.jpg",
-    "date" : "2021-09-03",
-    "title" : "怒",
-    "contents": [
-    "<p>Great multiline plotting which peaks in the middle. Ending is less than perfect though.</p>",    
-    "<center><img src=\"assets/img/nuli.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Rating: 7</p>"
-    ],
-    "categories": [
-      "Novel"
     ]
   },    
   {
