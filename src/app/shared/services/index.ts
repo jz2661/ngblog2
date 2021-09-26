@@ -8,7 +8,6 @@ export { Article, ArticleSearchParams, ArticleService } from './article.service'
 //export { WebSocketService } from './websocket.service';
 
 export const SHARED_SERVICES: Provider[] = [
-  //{ provide: BidService, useClass: BidService },
   { provide: ArticleService, useClass: LocalArticleService },
   //{ provide: WebSocketService, useClass: WebSocketService }
 ];

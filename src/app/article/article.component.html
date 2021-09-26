@@ -3,7 +3,7 @@
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>{{article.title}}</mat-card-title>
-      <mat-card-subtitle class="white-text">{{article.date}}</mat-card-subtitle>
+      <mat-card-subtitle class="white-text">{{article.date | date: 'mediumDate'}}</mat-card-subtitle>
     </mat-card-header>
   </mat-card>  
 

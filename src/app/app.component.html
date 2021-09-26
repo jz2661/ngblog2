@@ -15,6 +15,19 @@
       </button>
     </mat-menu>
 
+    <button mat-icon-button [matMenuTriggerFor]="pageoptions" aria-label="page options">
+      <mat-icon>sort</mat-icon>
+    </button>
+    <mat-menu #pageoptions="matMenu">
+      <button mat-menu-item (click)="setOrderBy('date')">
+        <span>Order by Date</span>
+      </button>
+      <button mat-menu-item (click)="setOrderBy('rating')">
+        <span>Order by Rating</span>
+      </button>      
+    </mat-menu>
+
+
     <div class="toolbar__logo-title-group"
          fxLayout
          fxLayoutAlign="center center">      

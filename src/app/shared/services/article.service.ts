@@ -14,6 +14,7 @@ export interface Article {
   name: string;
   title: string;
   date: Date;
+  rating: number;
   imageUrl: string;
   contents: string[];
   categories: string[];
