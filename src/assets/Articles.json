@@ -1,5 +1,22 @@
 [
   {
+    "id": 24,
+    "imageUrl" : "assets/img/changingmind.jpg",
+    "date" : "2021-10-03",
+    "title" : "Changing Mind",
+    "rating": "5",
+    "contents": [
+    "<p>An introduction to cognitive and developmental psychology and neuroscience, good for first reading in this field. Overall it is not well focused, a bit wordy and written for casual readers. This could be much better if volume could shrink by half.</p>",
+    "<p>Key takeaway is to always try new things in life, keep healthy social network (with young people) and exercise.</p>",
+
+    "<center><img src=\"assets/img/changingmind.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 5</p>"
+    ],
+    "categories": [
+      "Others"
+    ]
+  }, 
+  {
     "id": 23,
     "imageUrl" : "assets/img/solved.jpg",
     "date" : "2021-09-25",
@@ -15,7 +32,7 @@
     "categories": [
       "Others"
     ]
-  }, 
+  },   
   {
     "id": 22,
     "imageUrl" : "assets/img/ms.jpg",
