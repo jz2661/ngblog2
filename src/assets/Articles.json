@@ -1,5 +1,22 @@
 [
   {
+    "id": 25,
+    "imageUrl" : "assets/img/sentiment.jpg",
+    "date" : "2021-10-14",
+    "title" : "Sentiment Analysis",
+    "rating": "7",
+    "contents": [
+    "<p>A nice introduction for methodology and algos in the field for non-practitioners. Topics like aspect mining and detecting fake reviews are particularly interesting.</p>",
+    "<p>Given the difficulty of the topic it is not feasible to build a usable application with this book alone. Nevertheless such background knowledge is nice as sentiment analysis apps might improve significantly in near future.</p>",
+
+    "<center><img src=\"assets/img/sentiment.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 7</p>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  }, 
+  {
     "id": 24,
     "imageUrl" : "assets/img/changingmind.jpg",
     "date" : "2021-10-03",
@@ -15,7 +32,7 @@
     "categories": [
       "Others"
     ]
-  }, 
+  },   
   {
     "id": 23,
     "imageUrl" : "assets/img/solved.jpg",
@@ -78,7 +95,7 @@
     "<p>Rating: 7</p>"
     ],
     "categories": [
-      "Others"
+      "Science"
     ]
   },   
   {
@@ -335,7 +352,7 @@
       "<p>Cheers!</p>"
     ],
     "categories": [
-      "Life"
+      "Others"
     ]
   }
 ]
