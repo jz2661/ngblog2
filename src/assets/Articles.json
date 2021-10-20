@@ -1,5 +1,21 @@
 [
   {
+    "id": 26,
+    "imageUrl" : "assets/img/dataintensive.jpg",
+    "date" : "2021-10-20",
+    "title" : "Data Intensive App",
+    "rating": "8",
+    "contents": [
+    "<p>This book clearly illustrates concepts in distributed data systems such as serialisable, linearizable, isolation, atomicity, 2PC, MapReduce etc. The coverage is broad for people not really in distributed data engineering and is a great source to expand common knowledge in this field.</p>",
+
+    "<center><img src=\"assets/img/dataintensive.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  }, 
+  {
     "id": 25,
     "imageUrl" : "assets/img/sentiment.jpg",
     "date" : "2021-10-14",
@@ -15,7 +31,7 @@
     "categories": [
       "Dev"
     ]
-  }, 
+  },   
   {
     "id": 24,
     "imageUrl" : "assets/img/changingmind.jpg",
