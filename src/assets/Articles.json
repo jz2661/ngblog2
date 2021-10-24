@@ -1,5 +1,22 @@
 [
   {
+    "id": 27,
+    "imageUrl" : "assets/img/40studies.jpg",
+    "date" : "2021-10-24",
+    "title" : "Forty Studies Psychology",
+    "rating": "9",
+    "contents": [
+    "<p>This is an excellent summary of psychology experiments that would serve as a one-stop for either first reading in psychology or recap from readings years ago.</p>",
+    "<p>Many of the topics such as sense of control on well being, nature-nurture impact on profile and personality, learned helplessness, are of immense help to lifetime achievement and happiness over multi years.</p>",
+
+    "<center><img src=\"assets/img/40studies.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 9</p>"
+    ],
+    "categories": [
+      "Science"
+    ]
+  }, 
+  {
     "id": 26,
     "imageUrl" : "assets/img/dataintensive.jpg",
     "date" : "2021-10-20",
