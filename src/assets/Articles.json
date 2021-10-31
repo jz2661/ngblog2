@@ -1,5 +1,21 @@
 [
   {
+    "id": 28,
+    "imageUrl" : "assets/img/evopsy.jpg",
+    "date" : "2021-10-31",
+    "title" : "Evolutionary Psychology",
+    "rating": "8",
+    "contents": [
+    "<p>While the mating strategies have been widely advertised by common media, the second half is particularly interesting starting from parent-child conflicts.</p>",
+
+    "<center><img src=\"assets/img/evopsy.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Science"
+    ]
+  }, 
+  {
     "id": 27,
     "imageUrl" : "assets/img/40studies.jpg",
     "date" : "2021-10-24",
@@ -15,7 +31,7 @@
     "categories": [
       "Science"
     ]
-  }, 
+  },   
   {
     "id": 26,
     "imageUrl" : "assets/img/dataintensive.jpg",
@@ -374,11 +390,11 @@
     "rating": 0,
     "cols": 2,
     "contents": [
-      "<p>I’ve been a professional quantitative researcher for five years now, with most of that time spent at Morgan Stanley. In my earlier years I was building the algorithmic trading strategies (pretty interesting stuff) and that was all Java. These days at work I am looking into macro strategies in Asia with a quantamental approach, using Python as a handy tool.</p>",
+      "<p>I have been a professional quantitative researcher for five years now, with most of that time spent at Morgan Stanley. In my earlier years I was building the algorithmic trading strategies and that was all Java. These days at work I am looking into macro strategies in Asia with a quantamental approach, using Python as a handy tool.</p>",
 
       "<center><img src=\"assets/img/aboutme.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
 
-      "<p>I’ve spent the last decade moving between Shanghai, New York, and Hong Kong. I enjoy reading about statistics, computer science, finance and detective novels.</p>",
+      "<p>I spent the last decade moving between Shanghai, New York, and Hong Kong. I enjoy reading about statistics, computer science, finance and detective novels.</p>",
       
       "<p>If you’d like to get in touch about anything please don’t hesitate to drop me an email.</p>",
       
