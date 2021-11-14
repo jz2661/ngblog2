@@ -1,5 +1,21 @@
 [
   {
+    "id": 30,
+    "imageUrl" : "assets/img/hideempire.jpg",
+    "date" : "2021-11-14",
+    "title" : "How to Hide an Empire",
+    "rating": "9",
+    "contents": [
+    "<p>An excellent piece on the less well-known evolution of US territories - the Philippines, Puerto Rico, Hawaii, Alaska, Guam and Samoa Americana.</p>",
+    "<p>The clash of imperialism, racism and republic ideologies is not absent but hidden in US history. Incidentally, synthetic chemistry breakthrough during WWII has reduced the reliance on closely managed colonies, with globalization, pointwise military bases and interventionism best serving national objectives today.</p>",
+    "<center><img src=\"assets/img/hideempire.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 9</p>"
+    ],
+    "categories": [
+      "Others"
+    ]
+  }, 
+  {
     "id": 29,
     "imageUrl" : "assets/img/beyondbasic.jpg",
     "date" : "2021-11-07",
@@ -13,7 +29,7 @@
     "categories": [
       "Dev"
     ]
-  }, 
+  },   
   {
     "id": 28,
     "imageUrl" : "assets/img/evopsy.jpg",
