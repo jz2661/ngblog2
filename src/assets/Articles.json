@@ -6,7 +6,7 @@
     "title" : "Mathematics for Algorithm",
     "rating": "5",
     "contents": [
-    "<p>A basic review of probability theory and graph theory with practices.</p>",
+    "<p>A basic review of probability theory, (decision) trees and graph theory with practices.</p>",
     "<center><img src=\"assets/img/mathalgo_.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
     "<p>Rating: 5</p>"
     ],
@@ -436,7 +436,7 @@
     "rating": 0,
     "cols": 2,
     "contents": [
-      "<p>I have been a professional quantitative researcher for five years now, with most of that time spent at Morgan Stanley. In my earlier years I was building the algorithmic trading strategies and that was all Java. These days at work I am looking into macro strategies in Asia with a quantamental approach, using Python as a handy tool.</p>",
+      "<p>I have been a professional quantitative researcher for five years now, with most of that time spent at Morgan Stanley. In my earlier years I was looking into macro strategies in Asia with a quantamental approach. These days at work I am building the algorithmic trading strategies in global macro, using Python as a handy tool.</p>",
 
       "<center><img src=\"assets/img/aboutme.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
 
