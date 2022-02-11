@@ -1,5 +1,20 @@
 [
   {
+    "id": 32,
+    "imageUrl" : "assets/img/mathhys.jpg",
+    "date" : "2022-02-11",
+    "title" : "Math Hysteria",
+    "rating": "6",
+    "contents": [
+    "<p>A good leisure read of common knowledge, Marcov chain etc.</p>",
+    "<center><img src=\"assets/img/mathhys.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 6</p>"
+    ],
+    "categories": [
+      "Mathematics"
+    ]
+  }, 
+  {
     "id": 31,
     "imageUrl" : "assets/img/mathalgo_.jpg",
     "date" : "2021-11-24",
@@ -13,7 +28,7 @@
     "categories": [
       "Mathematics"
     ]
-  }, 
+  },   
   {
     "id": 30,
     "imageUrl" : "assets/img/hideempire.jpg",
