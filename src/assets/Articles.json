@@ -1,5 +1,20 @@
 [
   {
+    "id": 35,
+    "imageUrl" : "assets/img/39manual.jpg",
+    "date" : "2022-03-18",
+    "title" : "Python 3.9 Manual",
+    "rating": "8",
+    "contents": [
+    "<p>Surprisingly good coverage on namespace, context manager, descriptor and async framework.</p>",
+    "<center><img src=\"assets/img/fixedtrading.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  }, 
+  {
     "id": 34,
     "imageUrl" : "assets/img/fixedtrading.jpg",
     "date" : "2022-03-15",
@@ -14,7 +29,7 @@
     "categories": [
       "Finance"
     ]
-  }, 
+  },   
   {
     "id": 33,
     "imageUrl" : "assets/img/patho.jpg",
@@ -173,24 +188,7 @@
     "categories": [
       "Others"
     ]
-  },   
-  {
-    "id": 23,
-    "imageUrl" : "assets/img/solved.jpg",
-    "date" : "2021-09-25",
-    "title" : "Solved",
-    "rating": "5",
-    "contents": [
-    "<p>It is a fine casual reading. Key takeaways are the country comparison table near the end and that immigrants become less attractive to host countries as they age, while temp residents are always welcome as they contribute consumption without tapping public resources.</p>",
-    "<p>The book would be more interesting to address from policymaker perspective and examine why policymakers do not adopt the \"better\" policies. Many of objectives in the book (higher growth, less inequality, democracy) might be means rather than end goals in policymaker eyes, depending on the country.</p>",
-
-    "<center><img src=\"assets/img/solved.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Rating: 5</p>"
-    ],
-    "categories": [
-      "Others"
-    ]
-  },   
+  },    
   {
     "id": 22,
     "imageUrl" : "assets/img/ms.jpg",
@@ -355,24 +353,7 @@
     "categories": [
       "Mathematics", "Dev"
     ]
-  },   
-  {
-    "id": 10,
-    "imageUrl" : "assets/img/vba2019.jpg",
-    "date" : "2021-09-06",
-    "title" : "VBA and Macros",
-    "rating": 6,
-    "contents": [
-    "<p>A nice intro on VBA. I have not used VBA for years and after I read this the use cases are still limited in work.</p>",
-    "<p>VBA is in a middle-of-nowhere given Excel to do one-off work and Pythhon to handle systematic, repetitive processing...</p>",            
-
-    "<center><img src=\"assets/img/vba2019.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Rating: 6</p>"
-    ],
-    "categories": [
-      "Dev"
-    ]
-  },   
+  },     
   {
     "id": 9,
     "imageUrl" : "assets/img/digitalccy.jpg",
