@@ -1,5 +1,21 @@
 [
   {
+    "id": 37,
+    "imageUrl" : "assets/img/exotic.jpg",
+    "date" : "2022-03-24",
+    "title" : "Exotic Options Trading",
+    "rating": "8",
+    "contents": [
+    "<p>Quite dated but still very relavent today on barrier, autocallable, quanto, varswaps and dispersion.</p>",
+    "<p>Apparently not too many grand new structures post GFC... It was a decade of passive investment?</p>",
+    "<center><img src=\"assets/img/exotic.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 8</p>"
+    ],
+    "categories": [
+      "Finance"
+    ]
+  }, 
+  {
     "id": 36,
     "imageUrl" : "assets/img/scraper.jpg",
     "date" : "2022-03-23",
@@ -13,7 +29,7 @@
     "categories": [
       "Dev"
     ]
-  }, 
+  },   
   {
     "id": 35,
     "imageUrl" : "assets/img/39manual.jpg",
