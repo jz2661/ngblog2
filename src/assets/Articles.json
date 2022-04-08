@@ -1,5 +1,20 @@
 [
   {
+    "id": 39,
+    "imageUrl" : "assets/img/infinitepowers.jpg",
+    "date" : "2022-04-08",
+    "title" : "Infinite Powers",
+    "rating": "7",
+    "contents": [
+    "<p>Applied calculus common knowledge; Impressive illustration on fingerprint wavelet dimension reduction and Fourier transformation application in microwave.</p>",
+    "<center><img src=\"assets/img/infinitepowers.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 7</p>"
+    ],
+    "categories": [
+      "Mathematics"
+    ]
+  }, 
+  {
     "id": 38,
     "imageUrl" : "assets/img/teubner.jpg",
     "date" : "2022-04-07",
@@ -14,7 +29,7 @@
     "categories": [
       "Mathematics"
     ]
-  }, 
+  },   
   {
     "id": 37,
     "imageUrl" : "assets/img/exotic.jpg",
