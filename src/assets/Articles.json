@@ -1,5 +1,20 @@
 [
   {
+    "id": 40,
+    "imageUrl" : "assets/img/algebra.jpg",
+    "date" : "2022-04-09",
+    "title" : "Algebra",
+    "rating": "5",
+    "contents": [
+    "<p></p>",
+    "<center><img src=\"assets/img/algebra.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
+    "<p>Rating: 5</p>"
+    ],
+    "categories": [
+      "Mathematics"
+    ]
+  }, 
+  {
     "id": 39,
     "imageUrl" : "assets/img/infinitepowers.jpg",
     "date" : "2022-04-08",
@@ -13,7 +28,7 @@
     "categories": [
       "Mathematics"
     ]
-  }, 
+  },   
   {
     "id": 38,
     "imageUrl" : "assets/img/teubner.jpg",
