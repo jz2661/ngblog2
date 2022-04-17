@@ -7,8 +7,7 @@
     "rating": "8",
     "contents": [
     "<p>Useful theories on motives, job satisfaction, performance and teamwork.</p>",
-    "<center><img src=\"assets/img/organ.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/organ.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Science"
@@ -22,8 +21,7 @@
     "rating": "8",
     "contents": [
     "<p>Good extension read on memories.</p>",
-    "<center><img src=\"assets/img/csapp.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/csapp.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -37,8 +35,7 @@
     "rating": "5",
     "contents": [
     "<p></p>",
-    "<center><img src=\"assets/img/algebra.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/algebra.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -52,8 +49,7 @@
     "rating": "7",
     "contents": [
     "<p>Applied calculus common knowledge; Impressive illustration on fingerprint wavelet dimension reduction and Fourier transformation application in microwave.</p>",
-    "<center><img src=\"assets/img/infinitepowers.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/infinitepowers.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -68,8 +64,7 @@
     "contents": [
     "<p>Refresh basics... lack contents on applied math.</p>",
     "<p>Analysis and algebra are ok but not enough detail to learn new insight here.</p>",    
-    "<center><img src=\"assets/img/teubner.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/teubner.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -84,8 +79,7 @@
     "contents": [
     "<p>Quite dated but still highly relevant today on barrier, autocallable, quanto, varswaps and dispersion.</p>",
     "<p>Apparently not too many grand new structures post GFC... It was a decade of passive investment?</p>",
-    "<center><img src=\"assets/img/exotic.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/exotic.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Finance"
@@ -99,8 +93,7 @@
     "rating": "8",
     "contents": [
     "<p>Interesting tricks on anti-scraping such as signature, cookie, render tools, picture hiding, deep learning and Captcha.</p>",
-    "<center><img src=\"assets/img/scraper.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/scraper.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -114,8 +107,7 @@
     "rating": "8",
     "contents": [
     "<p>Surprisingly good coverage on namespace, context manager, descriptor and async framework.</p>",
-    "<center><img src=\"assets/img/39manual.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/39manual.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -130,8 +122,7 @@
     "contents": [
     "<p>Nice coverage including details on ECB and BOJ, settlement&clearing, instruments and hedging.</p>",
     "<p>Better to further expand on options and trading strategies.</p>",
-    "<center><img src=\"assets/img/fixedtrading.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/fixedtrading.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Finance"
@@ -145,8 +136,7 @@
     "rating": "4",
     "contents": [
     "<p>Hope it could focus on less cases rather than shortly examine many kinds of diseases in parallel.</p>",
-    "<center><img src=\"assets/img/patho.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/patho.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Others"
@@ -160,8 +150,7 @@
     "rating": "6",
     "contents": [
     "<p>A good leisure read of common knowledge, Marcov chain etc.</p>",
-    "<center><img src=\"assets/img/mathhys.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/mathhys.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -175,8 +164,7 @@
     "rating": "5",
     "contents": [
     "<p>A basic review of probability theory, (decision) trees and graph theory with practices.</p>",
-    "<center><img src=\"assets/img/mathalgo_.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/mathalgo_.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -191,8 +179,7 @@
     "contents": [
     "<p>An excellent piece on the less well-known evolution of US territories - the Philippines, Puerto Rico, Hawaii, Alaska, Guam and Samoa Americana.</p>",
     "<p>The clash of imperialism, racism and republic ideologies is not absent but hidden in US history. Incidentally, scientific breakthroughs including synthetic chemistry reduced the reliance on closely managed colonies, with globalization, pointwise bases and interventionism better serving national interests today.</p>",
-    "<center><img src=\"assets/img/hideempire.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/hideempire.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Others"
@@ -206,8 +193,7 @@
     "rating": "6",
     "contents": [
     "<p>Well structured book to incremental skills like command line, version control, OOP. But still a bit shallow for experienced python programmer - harmless to skim quickly.</p>",
-    "<center><img src=\"assets/img/beyondbasic.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/beyondbasic.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -222,8 +208,7 @@
     "contents": [
     "<p>While the mating strategies have been widely advertised by common media, the second half is particularly interesting starting from parent-child conflicts.</p>",
     "<p>For example, it is inspiring that we can rank the offspring investment for each of the four grandparents. Nevertheless, evolutionary theory seems too convenient to provide explanations, and experiments might be compromised by researcher biases that induce inflated significance in differences.</p>",
-    "<center><img src=\"assets/img/evopsy.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/evopsy.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Science"
@@ -239,8 +224,7 @@
     "<p>This is an excellent summary of psychology experiments that would serve as a one-stop for either first reading in psychology or recap from readings years ago.</p>",
     "<p>Many of the topics such as sense of control, nature-nurture impact on profile and personality, learned helplessness, are of immense importance to lifetime achievement and wellbeing.</p>",
 
-    "<center><img src=\"assets/img/40studies.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/40studies.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Science"
@@ -255,8 +239,7 @@
     "contents": [
     "<p>This book clearly illustrates concepts in distributed data systems such as serialisable, linearizable, isolation, atomicity, 2PC, MapReduce etc. The coverage is broad for people not really in distributed data engineering and is a great source to expand common knowledge in this field.</p>",
 
-    "<center><img src=\"assets/img/dataintensive.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/dataintensive.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -272,8 +255,7 @@
     "<p>A nice introduction for methodology and algos in the field for non-practitioners. Topics like aspect mining and detecting fake reviews are particularly interesting.</p>",
     "<p>Given the difficulty of the topic it is not feasible to build a usable application with this book alone. Nevertheless such background knowledge is nice as sentiment analysis apps might improve significantly in near future.</p>",
 
-    "<center><img src=\"assets/img/sentiment.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/sentiment.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -289,8 +271,7 @@
     "<p>An introduction to cognitive and developmental psychology and neuroscience, good for first reading in this field. Overall it is not well focused, a bit wordy and written for casual readers. This could be much better if volume could shrink by half.</p>",
     "<p>Key takeaway is to always try new things in life, keep healthy social network (with young people) and exercise.</p>",
 
-    "<center><img src=\"assets/img/changingmind.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/changingmind.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Others"
@@ -321,8 +302,7 @@
     "contents": [
     "<p>Surprisingly comprehensive and insight book on statistical learning theory. Good for refreshing memory but could be a bit challenging for first time readers.</p>",
 
-    "<center><img src=\"assets/img/datasciml.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/datasciml.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -337,8 +317,7 @@
     "contents": [
     "<p>General science book with latest development in particular on gravitational wave, CRISPR gene editing and science funding.</p>",
 
-    "<center><img src=\"assets/img/statesci.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/statesci.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Science"
@@ -354,8 +333,7 @@
     "<p>To admit this book is not for people enjoying career success... </p>",
     "<p>But if you are in a bottleneck at work like me, try a read and you will come out happier and less anxious. A better mood will help everything in your life then~ </p>",
 
-    "<center><img src=\"assets/img/diezero.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/diezero.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Others"
@@ -370,8 +348,7 @@
     "contents": [
     "<p>I read this for some common knowledge in medical science, stressing that self-repair of the body is the ultimate way.</p>",
 
-    "<center><img src=\"assets/img/medi.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/medi.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Others"
@@ -386,8 +363,7 @@
     "contents": [
     "<p>A good introduction into macro economic practices and central banking in modern world. I read this in undergrad and have recalled knowledge from this many times since then.</p>",
 
-    "<center><img src=\"assets/img/ecomoney.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/ecomoney.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Finance"
@@ -403,8 +379,7 @@
     "<p>Needless to say this is an entry book for many statistical learning practitioners... Purely about the algos.</p>",
     "<p>The thinner An Introduction to Statistical Learning is better if you are looking for a first time read in this field.</p>",
 
-    "<center><img src=\"assets/img/elements.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/elements.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -420,8 +395,7 @@
     "<p>This covers most concepts encountered in financial data science. Should read another book for modern linear algebra.</p>",
     "<p>The book contains interesting use cases in physics, finance and numerical modelling.</p>",
 
-    "<center><img src=\"assets/img/princetonmath.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/princetonmath.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics"
@@ -437,8 +411,7 @@
     "<p>This book is about financial ML practices instead of algos. Much about data cleaning, feature selection and performance evaluation.</p>",
     "<p>The features part a bit focusing on microstructure but still worth reading for lower-frequency players.</p>",
 
-    "<center><img src=\"assets/img/advfinml.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/advfinml.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics", "Dev"
@@ -454,8 +427,7 @@
     "<p>Great practical guide for feature engineering in scikit-learn, such as Pipelines.</p>",
     "<p>It is direct on the implementation level, should read algos and some <a href=\"#/articles/14\">practition guide</a> before reading this.</p>",
 
-    "<center><img src=\"assets/img/featureengineering.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/featureengineering.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Mathematics", "Dev"
@@ -474,8 +446,7 @@
     "<p>Nevertheless, the informational and social benefits (to squeeze out private coins and cash to better track economic activities) of CBDC are too large to ignore, and many Asia central banks, leading by PBOC, started initiatives to launch CBDC.</p>",
     "<p>It could be a game changer in a low-rate environment where traditional monetary policy space has been limited.</p>",        
 
-    "<center><img src=\"assets/img/digitalccy.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/digitalccy.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Finance"
@@ -489,8 +460,7 @@
     "rating": 6,
     "contents": [
     "<p>The assignment operator is almost the only thing new for me but it is available only in v3.8. This book has a short but nice coverage on parallelism.</p>",    
-    "<center><img src=\"assets/img/effectivepython.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/effectivepython.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -506,8 +476,7 @@
     "contents": [
     "<p>Reinforcement Learning would be ideal for trading execution strategy where we have a market impact model.</p>",
     "<p>However in most backtesting nowadays investor trades are assumed not impacting market movement, which is why we could do backtesting. In this scenario conventional supervised learning seems superior as historical data would be very limited for reinforcement learning purpose.</p>",
-    "<center><img src=\"assets/img/deepreinforcement.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/deepreinforcement.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
@@ -522,8 +491,7 @@
     "rating": 6,
     "contents": [
     "<p>This book inspired me to build this website... The book is fine but not surprising that I learned most of Angular by coding rather than reading!</p>",
-    "<center><img src=\"assets/img/angular.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    
+    "<center><img src=\"assets/img/angular.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
       "Dev"
