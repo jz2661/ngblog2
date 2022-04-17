@@ -20,8 +20,11 @@ import { Article } from '../../shared/services';
 export class ArtcontentsComponent implements OnInit, OnChanges {
   private readonly articleChange$ = new Subject<Article>();
   contents = "<p>Hello World!</p>";
+  
+
   //latestBids$: Observable<number>;
   @Input() article: Article;
+  currentRate = 0;
 
   constructor(
     @Inject(API_BASE_URL) private readonly baseUrl: string,
@@ -37,6 +40,7 @@ export class ArtcontentsComponent implements OnInit, OnChanges {
       (article, bid) =>  bid && bid.articleId === article.id ? bid.price : article.price
     );
     */
+    this.currentRate = this.article.rating/2.0;
   }
 
   ngOnChanges() {
@@ -45,6 +49,7 @@ export class ArtcontentsComponent implements OnInit, OnChanges {
     if(this.article)
     {
       this.contents = this.article.contents.join("");
+      this.currentRate = this.article.rating/2.0;
     }
   }
 
@@ -55,4 +60,6 @@ export class ArtcontentsComponent implements OnInit, OnChanges {
   urlFor(article: Article): string {
     return `${this.baseUrl}/${article.imageUrl}`;
   }
+
+
 }

@@ -10,6 +10,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatChipsModule} from '@angular/material/chips';
+import { NgbRatingModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { ArticleComponent } from './article.component';
 import { ArtcontentsComponent } from './artcontents';
@@ -30,6 +31,7 @@ import { ArtsideComponent } from './artside';
     MatListModule,
     MatIconModule,
     MatCardModule,
+    NgbRatingModule
   ],
   declarations: [
     ArticleComponent,

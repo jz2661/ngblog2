@@ -25,6 +25,7 @@ import { routes } from './app.routing';
 import { orderReducer } from './shared/reducers/orderby';
 import { API_BASE_URL } from './app.tokens';
 import { AmplifyAngularModule, AmplifyService } from 'aws-amplify-angular';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 export interface State {
   orderBy: string;
@@ -47,7 +48,8 @@ export interface State {
     MatMenuModule,
     MatListModule,
     MatGridListModule,
-    MatSelectModule
+    MatSelectModule,
+    NgbModule
     //MDBBootstrapModule.forRoot()
 
     //SearchFormModule
