@@ -11,8 +11,10 @@
         <span class="half" [style.width.%]="fill">&#9733;</span>&#9733;
       </span>
     </ng-template>
-    <ngb-rating class="star" [(rate)]="currentRate" [starTemplate]="t" [max]="5"></ngb-rating>
-    
+    <div *ngIf="(currentRate>=0)&&(currentRate<=5)">
+      <ngb-rating class="star" [(rate)]="currentRate" [starTemplate]="t" [max]="5"></ngb-rating>
+    </div>
+
     <br>
 
     <div 
