@@ -1,5 +1,19 @@
 [
   {
+    "id": 43,
+    "imageUrl" : "assets/img/am2020.jpg",
+    "date" : "2022-04-19",
+    "title" : "New Asset Management",
+    "rating": "7",
+    "contents": [
+    "<p>Understanding channel business.</p>",
+    "<center><img src=\"assets/img/am2020.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Finance"
+    ]
+  }, 
+  {
     "id": 42,
     "imageUrl" : "assets/img/organ.jpg",
     "date" : "2022-04-15",
@@ -12,7 +26,7 @@
     "categories": [
       "Science"
     ]
-  }, 
+  },   
   {
     "id": 41,
     "imageUrl" : "assets/img/csapp.jpg",
