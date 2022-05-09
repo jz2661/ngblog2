@@ -304,23 +304,7 @@
     "categories": [
       "Others"
     ]
-  },    
-  {
-    "id": 22,
-    "imageUrl" : "assets/img/ms.jpg",
-    "date" : "2021-09-12",
-    "title" : "Morgan Stanley Research",
-    "rating": "11",
-    "contents": [
-    "<p>If you have access to Morgan Stanley Research welcome to take a look at my works there, with the best ones on Global EM Strategist.</p>",
-
-    "<center><img src=\"assets/img/ms.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>",
-    "<p>Cheers!</p>"
-    ],
-    "categories": [
-      "Finance", "Publication"
-    ]
-  },   
+  },     
   {
     "id": 21,
     "imageUrl" : "assets/img/datasciml.jpg",
