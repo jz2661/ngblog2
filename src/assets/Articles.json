@@ -1,5 +1,33 @@
 [
   {
+    "id": 46,
+    "imageUrl" : "assets/img/high-performance-python.jpg",
+    "date" : "2022-05-17",
+    "title" : "High Performance Python",
+    "rating": "9",
+    "contents": [
+    "<p>Rich details in python data structures, Cython, Numba, joblib, asyncio and lifts language understanding to a next level.</p>",
+    "<center><img src=\"assets/img/high-performance-python.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  }, 
+  {
+    "id": 45,
+    "imageUrl" : "assets/img/organic.jpg",
+    "date" : "2022-05-13",
+    "title" : "Organic Chemistry",
+    "rating": "8",
+    "contents": [
+    "<p>Concise review of key topics that saves much time.</p>",
+    "<center><img src=\"assets/img/organic.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Science"
+    ]
+  },   
+  {
     "id": 44,
     "imageUrl" : "assets/img/inddiff.jpg",
     "date" : "2022-04-24",
@@ -12,7 +40,7 @@
     "categories": [
       "Science"
     ]
-  }, 
+  },   
   {
     "id": 43,
     "imageUrl" : "assets/img/am2020.jpg",
