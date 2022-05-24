@@ -1,5 +1,19 @@
 [
   {
+    "id": 47,
+    "imageUrl" : "assets/img/amtools.jpg",
+    "date" : "2022-05-24",
+    "title" : "Asset Management Tools",
+    "rating": "7",
+    "contents": [
+    "<p>Review of factor strategies and securities lending etc., not deep in detail.</p>",
+    "<center><img src=\"assets/img/amtools.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Finance"
+    ]
+  }, 
+  {
     "id": 46,
     "imageUrl" : "assets/img/high-performance-python.jpg",
     "date" : "2022-05-17",
@@ -12,7 +26,7 @@
     "categories": [
       "Dev"
     ]
-  }, 
+  },   
   {
     "id": 45,
     "imageUrl" : "assets/img/organic.jpg",
