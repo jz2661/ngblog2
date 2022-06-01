@@ -1,5 +1,20 @@
 [
   {
+    "id": 49,
+    "imageUrl" : "assets/img/advforecast.jpg",
+    "date" : "2022-06-01",
+    "title" : "Advanced Forecasting Python",
+    "rating": "7",
+    "contents": [
+    "<p>Random hyperparamer search, XGBoosting and Keras NN are very helpful for practitioners.</p>",
+    "<p>The first half ARIMA not much useful.</p>",
+    "<center><img src=\"assets/img/advforecast.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Mathematics", "Dev"
+    ]
+  }, 
+  {
     "id": 48,
     "imageUrl" : "assets/img/handbook-of-corporate-equity-derivatives-and-equity-capital-markets.jpg",
     "date" : "2022-05-31",
@@ -12,7 +27,7 @@
     "categories": [
       "Finance"
     ]
-  }, 
+  },   
   {
     "id": 47,
     "imageUrl" : "assets/img/amtools.jpg",
