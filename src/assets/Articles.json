@@ -1,5 +1,20 @@
 [
   {
+    "id": 50,
+    "imageUrl" : "assets/img/mldesign.jpg",
+    "date" : "2022-06-11",
+    "title" : "Machine Learning Design Patterns",
+    "rating": "6",
+    "contents": [
+    "<p>Authored by Google team, the arrangement is a bit boring but contents are actually good reference at work.</p>",
+    "<p>Embedding, Ensembles, Neutral Class and Reproducibility are all relevant topics.</p>",
+    "<center><img src=\"assets/img/mldesign.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  }, 
+  {
     "id": 49,
     "imageUrl" : "assets/img/advforecast.jpg",
     "date" : "2022-06-01",
@@ -13,7 +28,7 @@
     "categories": [
       "Mathematics", "Dev"
     ]
-  }, 
+  },   
   {
     "id": 48,
     "imageUrl" : "assets/img/handbook-of-corporate-equity-derivatives-and-equity-capital-markets.jpg",
