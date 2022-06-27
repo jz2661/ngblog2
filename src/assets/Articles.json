@@ -1,5 +1,20 @@
 [
   {
+    "id": 53,
+    "imageUrl" : "assets/img/dataintensiveapp.jpg",
+    "date" : "2022-06-27",
+    "title" : "Data Intensive Applications",
+    "rating": "7",
+    "contents": [
+    "<p>Review of concepts including shuffling, caching, and data operations.</p>",
+    "<p>Not detailed enough so difficult reading.</p>",	
+    "<center><img src=\"assets/img/dataintensiveapp.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  }, 
+  {
     "id": 52,
     "imageUrl" : "assets/img/dynam.jpg",
     "date" : "2022-06-13",
@@ -12,7 +27,7 @@
     "categories": [
       "Science"
     ]
-  }, 
+  },   
   {
     "id": 51,
     "imageUrl" : "assets/img/beautychem.jpg",
