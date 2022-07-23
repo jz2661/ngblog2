@@ -1,12 +1,26 @@
 [
   {
+    "id": 56,
+    "imageUrl" : "assets/img/linux.jpg",
+    "date" : "2022-07-23",
+    "title" : "How Linux Works",
+    "rating": "6",
+    "contents": [
+    "<p>Not necessarily from a programmer's perspective, it's a brief review on shell script and user environment.</p>",
+    "<center><img src=\"assets/img/linux.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  },   
+  {
     "id": 55,
     "imageUrl" : "assets/img/distill.jpg",
     "date" : "2022-07-12",
     "title" : "Python Distilled",
     "rating": "8",
     "contents": [
-    "<p>Rich advanced topics, espicially OOP chapter.</p>",
+    "<p>Rich advanced topics, especially OOP chapter.</p>",
     "<center><img src=\"assets/img/distill.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
     ],
     "categories": [
