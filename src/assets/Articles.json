@@ -1,5 +1,19 @@
 [
   {
+    "id": 58,
+    "imageUrl" : "assets/img/cppcrush.jpg",
+    "date" : "2022-07-29",
+    "title" : "C++ Crash Course",
+    "rating": "9",
+    "contents": [
+    "<p>Convenient multithreading with async and lock-free atomic types.</p>",
+    "<center><img src=\"assets/img/cppcrush.jpg\" class=\"centerImage\" alt=\"Unclickable\" width=\"66%\"/></center>"
+    ],
+    "categories": [
+      "Dev"
+    ]
+  },  
+  {
     "id": 57,
     "imageUrl" : "assets/img/learndeep.jpg",
     "date" : "2022-07-24",
@@ -12,7 +26,7 @@
     "categories": [
       "Dev"
     ]
-  },  
+  },    
   {
     "id": 56,
     "imageUrl" : "assets/img/linux.jpg",
